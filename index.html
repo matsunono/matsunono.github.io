@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>NVIDIAのJetson Nanoのセットアップとかメモ</title>
+  </head>
+  <body>
+      <h1>1.OSの起動まで</h1>
+      <h2>1.1.物理的な話</h2>
+      <p>
+          用意したもの
+          <ul>Jetson Nano</ul>
+          <ul>ACアダプタ(5V 4.0A)</ul>
+          <ul>microSDカード(最低16GB推奨32GBらしいですが、私は64GBのやつです)</ul>
+          <ul>マウス(端子はUSB)</ul>
+          <ul>キーボード(忘れてて家の倉庫を漁った、端子はUSBで)</ul>
+          <ul>モニター</ul>
+          <ul>HDMIケーブル</ul>
+          <ul>ネットにつなぐ環境(私はPLCアダプタとLANケーブル使いました)</ul>
+      </p>
+      <h2>1.2.SDカードのフォーマットからOSのインストールまで</h2>
+      <p>
+          参考：<a href="https://qiita.com/tsutof/items/66e68c75b462c4faf1cb">小型 AI コンピュータ NVIDIA Jetson Nano 開発者キットのセットアップ</a>
+      </p>
+      <h3>1.2.1.OSイメージファイルをダウンロードする</h3>
+      <p>
+          <a href="https://developer.nvidia.com/embedded/downloads">Jetson Download Center</a>
+          の"Jetson Nano Developer Kit SD Card Image" を選択してダウンロードしました。
+      </p>
+      <h3>1.2.2.SDカードのフォーマット</h3>
+      <p>
+          <a href="https://www.sdcard.org/downloads/formatter/eula_windows/">SD Memory Card Formatter</a>を使用してフォーマットを行いました。
+      </p>
+      <h3>1.2.3.OSイメージファイルを書き込む</h3>
+      <p>
+          <a href="https://www.balena.io/etcher/">Etcher</a>を使用して書き込みを行いました。
+      </p>
+    <!-- ここに書きたい内容を書く -->
+  </body>
+</html>
