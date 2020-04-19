@@ -99,9 +99,67 @@
 
       <h2>2-5.リモートでJetsonNanoの中のファイルを触れるようにする</h2>
       <p>
-        <a href="https://karaage.hatenadiary.jp/entry/2019/04/29/073000" target="_blank">
-          Jetson Nanoをセットアップしてディープラーニングで画像認識を試してみた</a>
-          
+        <a href="https://qiita.com/msrks/items/1385cf13258dd1a0da08" target="_blank">
+          Ubuntuでファイルサーバーをたてる（Samba）</a>
+          を見ながら、以下のコマンドを実行
+          <pre><code>
+            # インストール
+            $ sudo apt-get -y install samba
+
+            # 共有するディレクトリの作成
+            $ sudo mkdir /home/shere
+            $ sudo chmod 777 /home/shere
+
+            # ファイルサーバーの設定
+            $ sudo vim /etc/samba/smb.conf
+          </code></pre>
+          ここでファイルサーバーの再起動の為に、以下のコマンドを実行した
+          <pre><code>
+            $ sudo systemctl restart smbd
+          </code></pre>
+          すると、以下のエラー文が返ってきた
+          <pre><code>
+            Job for smbd.service failed because the control process exited with error code.
+            See "systemctl status smbd.service" and "journalctl -xe" for details.
+          </code></pre>
+          よく見直してみると"share"が"shere"になっていた<br>
+          まあ、エラーと関係ない気もするけど、スペルミスは直しておこうと
+          <pre><code>
+            $ sudo rmdir /home/shere
+            $ sudo mkdir /home/share
+            $ sudo chmod 777 /home/share
+
+            # confファイルの中も間違えているので直す
+            $ sudo vim /etc/samba/smb.conf
+          </code></pre>
+          しかし、同じエラーが出る為、
+          <pre><code>
+            # 最終行に追記
+            [Share] # 任意の共有名称を指定
+            path = /home/share # 共有フォルダ指定
+            writable = yes # 書き込みOK
+            guest ok = yes # ゲストユーザーOK
+            guest only = yes # 全てゲストとして扱う
+            create mode = 0777 # フルアクセスでファイル作成
+            directory mode = 0777 # フルアクセスでフォルダ作成
+          </code></pre>
+          上記のように、参考ページの通りにsmb.confを書いていたのを
+          <pre><code>
+            # 最終行に追記
+            [Share]
+            path = /home/share
+            writable = yes
+            guest ok = yes
+            guest only = yes
+            create mode = 0777
+            directory mode = 0777
+          </code></pre>
+          上記のように、コメントを削除してみたところ、
+          <pre><code>
+            $ sudo systemctl restart smbd
+          </code></pre>
+          が実行できた！<br>
+          だがしかし、JetsonNanoのshareフォルダにアクセス出来ないし、nmbdが再起動できない…
       </p>
   </body>
 </html>
