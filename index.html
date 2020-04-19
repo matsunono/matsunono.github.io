@@ -4,52 +4,23 @@
     <title>松ノさんメモ</title>
   </head>
   <body>
-      <h1>Jetson Nanoのセットアップメモ</h1>
-      <h2>1.OSの起動まで</h2>
-      <h2>1-1.物理的な話</h2>
-      <p>
-          用意したもの
-          <ul>
-            <li>Jetson Nano</li>
-            <li>ACアダプタ(5V 4.0A)</li>
-            <li>microSDカード(最低16GB推奨32GBらしいですが、私は64GBのやつです)</li>
-            <li>マウス(端子はUSB)</li>
-            <li>キーボード(忘れてて家の倉庫を漁った、端子はUSBで)</li>
-            <li>モニター</li>
-            <li>HDMIケーブル</li>
-            <li>ネットにつなぐ環境(私はPLCアダプタとLANケーブル使いました)</li>
-          </ul>    
-      </p>
-      <h2>1-2.SDカードのフォーマットからOSのインストールまで</h2>
-      <p>
-          参考：<a href="https://qiita.com/tsutof/items/66e68c75b462c4faf1cb">小型 AI コンピュータ NVIDIA Jetson Nano 開発者キットのセットアップ</a>
-      </p>
-      <h3>1-2-1.OSイメージファイルをダウンロードする</h3>
-      <p>
-          <a href="https://developer.nvidia.com/embedded/downloads">Jetson Download Center</a>
-          の"Jetson Nano Developer Kit SD Card Image" を選択してダウンロードしました。
-      </p>
-      <h3>1-2-2.SDカードのフォーマット</h3>
-      <p>
-          <a href="https://www.sdcard.org/downloads/formatter/eula_windows/">SD Memory Card Formatter</a>を使用してフォーマットを行いました。
-      </p>
-      <h3>1-2-3.OSイメージファイルを書き込む</h3>
-      <p>
-          <a href="https://www.balena.io/etcher/">Etcher</a>を使用して書き込みを行いました。
-      </p>
-      <h3>1-2-4.OSの起動</h3>
-      <p>
-          OSのイメージファイルを書き込んだmicroSDカードをJetson Nanoに差し込みます(microSDカードを指す場所が分かりずらい、CPUクーラーの下あたり)。
-          ACアダプタの端子を指すと自動で電源が付きます。<br>
-          最初の起動時に、
-          <ul>
-            <li>使用許諾の承諾</li>
-            <li>言語の選択(English)</li>
-            <li>キーボードの選択(JapaneseのJapanese)</li>
-            <li>タイムゾーンの選択(Tokyo)</li>
-            <li>アカウントの設定</li>
-          </ul>
-          を行いました。
-      </p>
+    <header>
+      <h1>
+        <a>松ノさんメモ</a>
+      </h1>
+      <nav>
+        <ul>
+            <li>
+                <a href="index.html" target="_blank">ホーム</a>
+            </li>
+            <li>
+                <a href="menu.html" target="_blank">メニュー</a>
+            </li>
+            <li>
+                <a href="profile.html" target="_blank">自己紹介</a>
+            </li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>
