@@ -42,7 +42,12 @@
         <a href="https://karaage.hatenadiary.jp/entry/2019/04/29/073000" target="_blank">
           Jetson Nanoをセットアップしてディープラーニングで画像認識を試してみた</a>
           を見ながら、以下のコマンドを実行<br>
-          <script src="https://gist.github.com/matsunono/d85adb5a88df0743244bfc9a0c6a516d.js"></script>
+          <pre><code>
+            $ git clone https://github.com/karaage0703/jetson-nano-tools
+            $ cd jetson-nano-tools
+            $ ./install-tensorflow.sh
+            $ ./install-tools.sh
+          </code></pre>
         うーん、スクリプトファイル(コマンドを書いてくれているファイル、打ち込む面倒が省ける)
         を入れて、実行してるってことかね？理解理解
       </p>
@@ -50,7 +55,10 @@
       <h2>2-2.OSのアップデート</h2>
       <p>
           以下のコマンドを実行<br>
-          <script src="https://gist.github.com/matsunono/d5a437892fc4d6ac4f940ef4544cb67a.js"></script>
+          <pre><code>
+            $ sudo apt-get update
+            $ sudo apt-get upgrade
+          </code></pre>>
           先にOSのアップデートするべきだった
       </p>
 
@@ -65,7 +73,35 @@
         OpenCV 4.3.0をインストールするように変更した<br>
         <script src="https://gist.github.com/matsunono/d515b94cf5d86042f383e7bdf2ece2be.js"></script>
         以下のコマンドを実行する(スクリプトの実行)
-        <script src="https://gist.github.com/matsunono/d0b94f69ed4d4266016f18d3ec9eea03.js"></script>
+        <pre><code>
+          $ mkdir opencv
+          $ ./install_opencv4.3.0_Nano.sh opencv
+        </code></pre>
+      </p>
+
+      <h2>2-4.画像認識のソフトを動かして遊ぶ(遊べない)</h2>
+      <p>
+        <a href="https://karaage.hatenadiary.jp/entry/2019/04/29/073000" target="_blank">
+          Jetson Nanoをセットアップしてディープラーニングで画像認識を試してみた</a>
+          を見ながら、以下のコマンドを実行("Keras"を"Karas"だと勘違いして、最初そんなフォルダ無いよって言われた)
+          <pre><code>
+            $ git clone https://github.com/karaage0703/keras-pi
+            $ cd keras-pi
+          </code></pre>
+          あ、ラズパイのカメラじゃないから、USBカメラですよーって書き直さなきゃかな？と思い、
+          VSCodeで開こうと、(この時すでにTeraTermを使ってリモートで動かしていたのだ！)
+          <pre><code>
+            $ code inspect_camera_pi.py
+          </code></pre>
+          とコマンドを打ったけど、"code"なんてコマンドは無いですわよと言われてしまった<br>
+          よく考えたら当たり前だった、JetsonNanoにVSCode入れてないですもん
+      </p>
+
+      <h2>2-5.リモートでJetsonNanoの中のファイルを触れるようにする</h2>
+      <p>
+        <a href="https://karaage.hatenadiary.jp/entry/2019/04/29/073000" target="_blank">
+          Jetson Nanoをセットアップしてディープラーニングで画像認識を試してみた</a>
+          
       </p>
   </body>
 </html>
