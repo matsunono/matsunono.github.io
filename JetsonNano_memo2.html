@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>松ノさんメモ</title>
+  </head>
+  <body>
+      <header>
+          <h1>
+              <a>松ノさんメモ</a>
+          </h1>
+          <nav>
+            <ul>
+              <li>
+                  <a href="index.html" target="_blank">ホーム</a>
+              </li>
+              <li>
+                  <a href="menu.html" target="_blank">メニュー</a>
+              </li>
+              <li>
+                  <a href="profile.html" target="_blank">自己紹介</a>
+              </li>
+          </ul>
+        </nav>
+      </header>
+
+      <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+      <h2>Jetson Nanoのセットアップメモ</h2>
+      <h2>2.セットアップ</h2>
+      <p>
+        参考：<a href="https://qiita.com/karaage0703/items/b14c249aa33112669ee4" target="_blank">Jetson Nano関係のTIPSまとめ</a>
+      </p>
+
+      <h2>2-1.TensorFlowのセットアップ</h2>
+      <p>
+        参考：<br>
+        <a href="https://qiita.com/n-yamanaka/items/dd82996312ab333fe9b2" target="_blank">Jetson Nanoインストールメモ</a><br>
+        <a href="https://karaage.hatenadiary.jp/entry/2019/04/29/073000" target="_blank">Jetson Nanoをセットアップしてディープラーニングで画像認識を試してみた</a>
+      </p>
+      <p>
+        (反省点)最初に<a href="https://github.com/JetsonHacksNano/installSwapfile" target="_blank">installSwapfile</a>を使用して
+        SWAP領域を追加しておけばもう少し早く終わった<br>
+        <a href="https://karaage.hatenadiary.jp/entry/2019/04/29/073000" target="_blank">
+          Jetson Nanoをセットアップしてディープラーニングで画像認識を試してみた</a>
+          を見ながら、以下のコマンドを実行<br>
+          <script src="https://gist.github.com/matsunono/d85adb5a88df0743244bfc9a0c6a516d.js"></script>
+        うーん、スクリプトファイル(コマンドを書いてくれているファイル、打ち込む面倒が省ける)
+        を入れて、実行してるってことかね？理解理解
+      </p>
+
+      <h2>2-2.OSのアップデート</h2>
+      <p>
+          以下のコマンドを実行<br>
+          <script src="https://gist.github.com/matsunono/d5a437892fc4d6ac4f940ef4544cb67a.js"></script>
+          先にOSのアップデートするべきだった
+      </p>
+
+      <h2>2-3.OpenCVのセットアップ</h2>
+      <p>
+        参考：<a href="https://qiita.com/asahi0301/items/3c287190348552f19415">Jetson NanoへOpenCV 4.1.0をインストールする</a>
+      </p>
+      <p>
+        参考ページ内のリンク
+        <a href="https://github.com/AastaNV/JEP/blob/master/script/install_opencv4.0.0_Nano.sh">(こちら)</a>
+        が死んでいたので、参考ページに載っていたスクリプトファイルを、
+        OpenCV 4.3.0をインストールするように変更した<br>
+        <script src="https://gist.github.com/matsunono/d515b94cf5d86042f383e7bdf2ece2be.js"></script>
+        以下のコマンドを実行する(スクリプトの実行)
+        <script src="https://gist.github.com/matsunono/d0b94f69ed4d4266016f18d3ec9eea03.js"></script>
+      </p>
+  </body>
+</html>
