@@ -31,12 +31,39 @@
         参考：Jetson Japan User Group,　"Jetson Nano 超入門", ソーテック社
         <a href="https://www.amazon.co.jp/Jetson-Nano%E8%B6%85%E5%85%A5%E9%96%80-Japan-User-Group/dp/4800712513" target="_blank">(amazonの販売ページ)</a>
       </p>
-      <h3>3-1-1.CUDAのデモ</h3>
       <p>
         今日(2020/04/20)の昼にJetsonNanoの入門本が届いたので、これを見ながらデモを動かしてみようと思う<br>
-        因みにこの本は後々P研の部室に貸し出し用に置こうかなと思っている
-
+        因みにこの本は後々P研の部室に貸し出し用に置こうかなと思っている、部室がミニミニ図書館化していく…
       </p>
+
+      <h3>3-1-1.fluidsGLのデモ</h3>
+      <p>
+        まず、fluidsGLデモが入っている、CUDAデモファイルをコピーして持ってくるために、以下のコマンドを実行
+        <pre><code>
+          $ cd ~
+          $ cp -a /usr/local/cuda-10.0/samples/ ../share/
+          $ ll
+        </code></pre>
+        まるっとコピーする為のaオプション…そして、コピー先は遠隔で触れるshareフォルダに入れておこう…<br>
+        うん、全てコピーできているっぽいので、以下のコマンドを実行してfluidsGLディレクトリの所まで飛んでいく
+        <pre><code>
+          $ cd samples/5_Simulations/fluidsGL
+        </code></pre>
+        それでは、サンプルプログラムをコンパイルして、実行
+        <pre><code>
+          $ make
+          $ ./fluidsGL
+        </code></pre>
+        エラーが返ってきた<br>
+        " ary when GPU Boost is enabled. No protocol specified freeglut (./fluidsGL): failed to open display ':0' "<br>
+        なるほど、ディスプレイ設定がされてなくてよ！！って言われてるようだ(英語苦手だから間違えてたらごめんなさい)<br>
+        リモートでGUIのアプリ動かすなって事かねぇ…<br>
+        と思い、直接プログラムを実行したら動いた
+        <p><img src="https://github.com/matsunono/matsunono.github.io/blob/master/img/JetsonNano_memo3/fluidsGL.png?raw=true" 
+          height="525" width="500" alt="fluidsGLimage"></p>
+          おぉ、水面なぞっているみたいだ…この動きを計算しているんですって？凄いですわね
+      </p>
+      
 
       
       <footer>
