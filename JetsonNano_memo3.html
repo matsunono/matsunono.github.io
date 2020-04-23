@@ -63,7 +63,97 @@
           height="525" width="500" alt="fluidsGLimage"></p>
           おぉ、水面なぞっているみたいだ…この動きを計算しているんですって？凄いね
       </p>
-      
+      <p>
+        他にも色々なサンプルプログラムがあるっぽい、面白そうな感じだ…
+      </p>
+
+      <h2>3-2.USBカメラを使ったプログラムを動かしてみる</h2>
+      <p>
+        参考：Jetson Japan User Group,　"Jetson Nano 超入門", ソーテック社
+        <a href="https://www.amazon.co.jp/Jetson-Nano%E8%B6%85%E5%85%A5%E9%96%80-Japan-User-Group/dp/4800712513" target="_blank">(amazonの販売ページ)</a>
+      </p>
+      <p>
+        創成Cでc++でOpenCV使ってクリックした場所の色によって、色々なお面を顔に付けるアプリ作ったし、
+        プログラム読める気がする(気がするだけじゃ)ので、ネットから引っ張ってきたプログラムを実行して、
+        自分の認識をメモっておこうと思う<br>
+        流石にまだ無知無知のムチン(れんこん)すぎて書けないので、本とかサイトに載っているプログラムを引っ張ってくる
+      </p>
+
+      <h3>3-2-1.とりあえず動かして遊ぶ</h3>
+      <p>
+        まず、最新の状態にして
+        <pre><code>
+          $ sudo apt-get update
+        </code></pre><br>
+
+        "python3-pip"、"protobuf-compiler"、"libprotoc-dev"、"libjpeg-dev"、"cmake"のインストールをする
+        <pre><code>
+          $ sudo apt-get install python3-pip protobuf-compiler libprotoc-dev libjpeg-dev cmake
+        </code></pre><br>
+
+        GitHubからプログラムを引っ張ってきて、フォルダに移動
+        <pre><code>
+          $ git clone https://github.com/tsutof/tiny_yolov2_onnx_cam
+          $ cd tiny_yolov2_onnx_cam
+        </code></pre><br>
+
+        exportコマンドは、環境変数やシェル変数を設定するコマンドだそうで…はぁ…？<br>
+        まぁ分からないのでググると、"export PATH=$PATH [場所]"がPATHを通す、どこからでもそのディレクトリを見れるようにするってことらしい<br>
+        "$PATH"は値なんですか？ほー、わけわかめが生える…<br>
+        つまり、:usr/local/cuda/binにPATHを通すってこと…か、と実行する
+        <pre><code>
+          $ export PATH=$PATH :usr/local/cuda/bin
+        </code></pre><br>
+        
+        ライブラリのインストールをする<br>
+        …のは分かるが、"python3 -m"と"-r requirements.txt"が分からない、"python3 -m"要るの？？？<br>
+        ググったら、"pip install -r requirements.txt"で、
+        設定テキスト(←requirements.txt)に定義されたパッケージを一括(←rオプションの意味)インストールするということらしい<br>
+        そして"python3 -m"は、後ろに書いた名前のモジュールをmainモジュールとして扱うそうな…またわけわかめ…<br>
+        と思って暫く調べていたら、<a href="https://devlights.hatenablog.com/entry/2019/07/13/231344" target="_blank">
+          Pythonメモ-107 (__main__.py について)(-m オプション, メインファイル)</a>に分かりやすく書かれていた<br>
+        …のだけど、合体させたら分からなくなった<br>
+        pipが通らないから～みたいなのもあったけど、pipこの前通ってた気がするので違うに1票<br>
+        <a href="https://docs.python.org/ja/3/installing/index.html" target="_blank">Python モジュールのインストール</a>
+        の題名の通り、Pythonのモジュールのパッケージだから"python3 -m"を付けて実行なのかな？<br>
+        つまり、Pythonのモジュールのパッケージを一括インストールしますってことかな…と実行
+        <pre><code>
+          $ python3 -m pip install -r requirements.txt
+        </code></pre><br>
+
+        アプリの実行の準備のコマンドを実行<br>
+        <a href="https://qiita.com/yamamo-to/items/6f0672a91c059a5493ed" target="_blank">Jetson Nanoにあるnvpmodelコマンド</a>
+        とか、
+        <a href="https://www.jetsonhacks.com/2017/03/25/nvpmodel-nvidia-jetson-tx2-development-kit/" target="_blank">
+          NVPModel – NVIDIA Jetson TX2 Development Kit</a>
+        とか読むと、nvpmodelコマンドのmオプションは、使用電力のモード決めが出来るっぽい<br>
+        jetson_clocksコマンドは<a href="https://qiita.com/yamamo-to/items/72bef24f49168fa5dda1">jetson_clocks</a>
+        を読むと、(EMC:External Memory Controller)のクロック数、パフォーマンスを変更したり、ファン速度、温度設定を変えるコマンドらしい<br>
+        んで、設定を保存したり、元に戻したりもオプション付けて出来るっぽい<br>
+        因みにオプション無しは最大パフォーマンスで！！！ってことだそう
+        <pre><code>
+          $ sudo nvpmodel -m 0
+          $ sudo jetson_clocks
+        </code></pre><br>
+
+        やっとこさアプリケーションの実行
+        初回実行時はダウンロードするものがある(ニューラルネットワークモデルとラベルファイル)のでインターネットに接続しておくこと
+        私はUSBカメラのみを繋げているのでcamera=0(何で"--"なのかね？)
+        <pre><code>
+          $ python3 tiny_yolov2_onnx_cam.py --camera=0
+        </code></pre><br>
+        <p><img src="https://github.com/matsunono/matsunono.github.io/blob/master/img/JetsonNano_memo3/tiny_yolov2_onnx_cam.png?raw=true" 
+          height="452" width="800" alt="tiny_yolov2_onnx_cam_image"></p>
+        家にトミカとか、リアルな動物のフィギュアとかが無いので、炭酸水のペットボトルを映したら、75%くらいbottleと判定されている…<br>
+        参考にした本では90%とかで当たってたけど…"ペット"ボトルだから精度低いのかな…<br>
+        あと画像は無いけれど、かなり誤認識が多い…帽子をchairと認識する…orz<br>
+        精度を上げたいものだねぇ、読めたらパラメータ調整とか出来るようになるのかね？
+      </p>
+
+      <h3></h3>
+      <p>
+
+      </p>
 
       
       <footer>
