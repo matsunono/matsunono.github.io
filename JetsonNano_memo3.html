@@ -35,6 +35,9 @@
         今日(2020/04/20)の昼にJetsonNanoの入門本が届いたので、これを見ながらデモを動かしてみようと思う<br>
         因みにこの本は後々P研の部室に貸し出し用に置こうかなと思っている、部室がミニミニ図書館化していく…
       </p>
+      <p>
+        注意: GUIのプログラムの実行はリモートでは出来ないので、本体から行おう(自責の念)
+      </p>
 
       <h3>3-1-1.fluidsGLのデモ</h3>
       <p>
@@ -143,16 +146,44 @@
           $ python3 tiny_yolov2_onnx_cam.py --camera=0
         </code></pre><br>
         <p><img src="https://github.com/matsunono/matsunono.github.io/blob/master/img/JetsonNano_memo3/tiny_yolov2_onnx_cam.png?raw=true" 
-          height="452" width="800" alt="tiny_yolov2_onnx_cam_image"></p>
-        家にトミカとか、リアルな動物のフィギュアとかが無いので、炭酸水のペットボトルを映したら、75%くらいbottleと判定されている…<br>
+          height="452" width="800" alt="camera_App1_image"></p>
+        家にトミカとか、リアルな動物のフィギュアとかが無いので、炭酸水のペットボトルを映したら、75%くらいbottleと判定されている…！！<br>
         参考にした本では90%とかで当たってたけど…"ペット"ボトルだから精度低いのかな…<br>
         あと画像は無いけれど、かなり誤認識が多い…帽子をchairと認識する…orz<br>
         精度を上げたいものだねぇ、読めたらパラメータ調整とか出来るようになるのかね？
       </p>
 
-      <h3></h3>
+      <h3>3-2-2.もう1つアプリを動かしてみる</h3>
       <p>
+        そういえば、Samba入れる発端のあのアプリケーション<a href="JetsonNano_memo2.html" target="_blank">(JetsonNanoのセットアップメモ2-4.を参照)</a>
+        動かしてないなぁと思い、動かしてみることにした<br>
+        でも、さっきのアプリケーションを実行するとき、"--camera=0"って書いたら出来たし、試しにやってみるか…
+        <pre><code>
+          $ cd keras-pi/
+          $ python3 inspect_camera.py --camera=0
+        </code></pre>
+        "inspect_camera.py: error: unrecognized arguments: --camera=0"<br>
+        引数が認識できないって言われてる<br>
+        でも、<a href="https://karaage.hatenadiary.jp/entry/2019/04/29/073000" target="_blank">参考ページ</a>
+        ではラズパイカメラだよってdオプションで書いてるんだよなぁ…どうしよう<br>
+        とりあえず、オプション書かないで動かしてみるか…
+        <pre><code>
+          $ python3 inspect_camera.py
+        </code></pre>
+        <p><img src="https://github.com/matsunono/matsunono.github.io/blob/master/img/JetsonNano_memo3/camera.png?raw=true" 
+          height="462" width="600" alt="camera_App2_image"></p>
+        動いた…プログラム書き換える必要無かったんだ…<br>
+        嬉しいけれど、ズコーッ_(┐「ε:)_
+      </p>
 
+      <h3>3-2-3.プログラムを読んでみる</h3>
+      <p>
+        先生たちに、まだ何も作ってないのかよ…はぁ(^^;って顔された…ごめんなさい……<br>
+        他の人のプログラム読んだら書けるようになるかなって…読んでいこうと思います…って言ったけど、これは果たして本当に書けるようになるのだろうか…およよ<br>
+        …とりあえず、今まで動かした画像認識のプログラム読んで理解するしかないね！(^ω^)
+      </p>
+      <p>
+        はー、完全に理解した(分かってない)
       </p>
 
       
