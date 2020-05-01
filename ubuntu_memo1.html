@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>松ノさんメモ</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a>松ノさんメモ</a>
+      </h1>
+      <nav>
+        <ul>
+            <li>
+                <a href="index.html">ホーム</a>
+            </li>
+            <li>
+                <a href="menu.html">メニュー</a>
+            </li>
+            <li>
+                <a href="profile.html">自己紹介</a>
+            </li>
+        </ul>
+
+        <h2>1.ubuntuにlabelImg入れるまでめも</h2>
+        <p>
+          言語を英語に変えて再起動
+          <pre><code>
+            $ sudo apt-get update
+            $ sudo apt install python3.7 -y
+            $ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1
+            $ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
+            $ sudo update-alternatives --config python3
+          </code></pre>
+          ここで2がpython3.7だったので、*を2にしますって書く("2"と打ってenter)
+          <pre><code>
+            $ python3 --version
+          </code></pre>
+          これで3.7.5って出たら成功
+          <pre><code>
+            $ sudo apt install python3-pip
+            $ sudo pip3 install --upgrade pip
+            $ sudo apt install python3-venv
+          </code></pre>
+          <pre><code>
+            $ sudo apt-get install pyqt5-dev-tools
+            $ sudo pip3 install -r requirements/requirements-linux-python3.txt
+          </code></pre>
+          これが通ったらpip3上手く入ったって事(昨晩ここで失敗し続けた)
+          <pre><code>
+            $ make qt5py3
+            $ python3 labelImg.py
+          </code></pre>
+          ウインドウ出た！！！やったー！！！
+        </p>
+      </nav>
+    </header>
+  </body>
+</html>
