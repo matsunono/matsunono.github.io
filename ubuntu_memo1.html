@@ -62,14 +62,40 @@
             そして、"A problem occurred when chacking for the updates."の"Show Updates"が開けたので、<br>
             ソフトウェアのアップデートをする<br>
             再起動しますか？(あとで/いま)…今やって上手くいかなくても、ダメージ少ないのでは？？？<br>
-            再起動後、右上の止まれアイコンが消え、Terminalの起動ができることを確認←今(2020/05/01)ここまで<br>
+            再起動後、右上の止まれアイコンが消え、Terminalの起動ができることを確認<br>
           </p>
-          
+          その後(python3.6が開くように設定してから)labelImg.pyを開こうとすると、以下のコマンドを実行
           <pre><code>
             $ make qt5py3
             $ python3 labelImg.py
           </code></pre>
-          ウインドウ出た！！！やったー！！！
+          するとエラーが出るようになってしまった
+          <pre><code>
+            Traceback (most recent call last):
+              File "labelImg.py", line 40, in &#12296;module&#12297;
+                from libs.labelFile import LabelFile, LabelFileError
+              File "/home/matsuno/labelImg-master/libs/labelFile.py", line 10, in &#12296;module&#12297;
+                from libs.pascal_voc_io import PascalVocWriter
+              File "/home/matsuno/labelImg-master/libs/pascal_voc_io.py", line 6, in &#12296;module&#12297;
+                from lxml import etree
+            ModuleNotFoundError: No module named 'lxml'
+          </code></pre>
+          pip3コマンドも通らなくなってしまった、昨晩こけた時と同じ状態に…<br>
+          なので、python3.7が開くように設定
+          <pre><code>
+            $ sudo update-alternatives --config python3
+          </code></pre>
+          で、"2"を打ってenter<br>
+          その後labelImg.pyを動かす
+          <pre><code>
+            $ python3 labelImg.py
+          </code></pre>
+          ウインドウが出た！やったー！！
+        </p>
+
+        <p>
+          ただこの方法だと、うっかりTerminalを閉じたら二度と開けなくなるので、<br>
+          別の方法を探したいものだ
         </p>
       </nav>
     </header>
