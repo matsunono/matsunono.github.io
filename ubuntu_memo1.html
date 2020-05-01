@@ -42,10 +42,27 @@
             $ sudo apt install python3-venv
           </code></pre>
           <pre><code>
+            $ unzip labelImg-master.zip
             $ sudo apt-get install pyqt5-dev-tools
+          </code></pre>
+          labelImg-masterディレクトリに移動
+          <pre><code>
             $ sudo pip3 install -r requirements/requirements-linux-python3.txt
           </code></pre>
-          これが通ったらpip3上手く入ったって事(昨晩ここで失敗し続けた)
+          これが通ったらpip3上手く入ったって事(昨晩ここで失敗し続けた)<br>
+          <p>
+            (追記)この時点で、"A problem occurred when chacking for the updates."が出ている<br>
+            "New Terminal"を押しても反応しない…(- -;)<br>
+            pythonのバージョンがーって話をネットで見かけたので、
+            <pre><code>
+              $ sudo update-alternatives --config python3
+            </code></pre>
+            で、"0"を打ってenter<br>
+            python3.6にバージョンを戻して、"New Terminal"を押したらウインドウ開いた<br>
+            そして、"A problem occurred when chacking for the updates."の"Show Updates"が開けたので、<br>
+            ソフトウェアのアップデートをする←今(2020/05/01)ここまで<br>
+          </p>
+          
           <pre><code>
             $ make qt5py3
             $ python3 labelImg.py
