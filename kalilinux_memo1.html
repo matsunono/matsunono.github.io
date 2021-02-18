@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>松ノさんメモ</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a>松ノさんメモ</a>
+      </h1>
+      <nav>
+        <ul>
+            <li>
+                <a href="index.html">ホーム</a>
+            </li>
+            <li>
+                <a href="menu.html">メニュー</a>
+            </li>
+            <li>
+                <a href="profile.html">自己紹介</a>
+            </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>VMware playerでKaliLinuxを動かすメモ</h1>
+    <p>
+      松ノ氏はノートパソコンを2台所有しており、
+      ASUSのZenBookをメインで、LenovoのThinkPadをハッキングの勉強に使用していたのだが、ある日のこと…<br>
+      松ノ氏の妹が大学デビューをしノートパソコンが必要になった為、ThinkPad譲ることになってしまったのだった……！<br>
+      KaliLinux入れていたのに…どうしようか<br>
+      P研の先輩に相談したら、部室のボード持ってきゃあって言われたけれど、置く場所が無い…orz<br>
+      メインで使っているZenBookのCドライブはMHWで容量いっぱい…ん？Cドライブは？<br>
+      ならば、Dドライブに仮想マシンを保存しとけば良いんだ！！！
+    </p>
+      <h2>1.OSの起動まで</h2>
+      <h2>1-1.物理的な話</h2>
+      <p>
+        用意したもの
+          <ul>
+            <li>ノートパソコン</li>
+            <li>外付けSSD(Cドライブでも再現できるように書くね)</li>
+            <li>ネットにつなぐ環境(Wi-Fiだよ)</li>
+            <li>モニター(作業しやすい)</li>
+            <li>HDMIケーブル(作業しやすい)</li>
+            <li>マウス(作業しやすい)</li>
+          </ul>
+      </p>
+
+    <h2>1-2.OSイメージファイルの用意</h2>
+    <p>
+      参考:<br>
+      <a href="http://sonickun.hatenablog.com/entry/2014/06/10/184403" target="_blank">VMwareでKali Linuxをインストール～日本語入力まで</a><br>
+      IPUSIRON,　"ハッカーの学校", 株式会社データハウス
+      <a href="https://www.amazon.co.jp/%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E3%81%AE%E5%AD%A6%E6%A0%A1-IPUSIRON/dp/4781701973" target="_blank">(amazonの販売ページ)</a>
+      (IPUSIRON氏の本は"暗号技術のすべて"とかも面白いです)
+    </p>
+    <p>
+      <a href="https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/" target="_blank">DOWNLOAD KALI LINUX VIRTUAL IMAGES</a>
+      から、"Kali Linux VMware 64-Bit"をダウンロードする<br>
+      時間かかるので、HPの更新とかお絵描きとかして待つ
+    </p>
+    <p>
+      ダウンロードが終わったら、圧縮ファイルを7zip(インストールしていない場合は
+      <a href="https://sevenzip.osdn.jp/" target="_blank">こちら</a>でインストール)で解凍する<br>
+      今回はDドライブに入れないと容量無いので、Dドライブに展開したのを置いてくれと指定
+    </p>
+
+    <h2>1-3.VMwareでKaliLinuxを動かす</h2>
+    <p>
+      VMwareが入っていない場合は
+      <a href="https://www.vmware.com/jp/products/workstation-player/workstation-player-evaluation.html" target="_blank">VMware Workstation Player の試用</a>
+      でダウンロードしてインストール<br>
+      私は前入れてたのをアップグレードしたので、インストールしたときのことを覚えてないけれど、
+      <a href = "https://eng-entrance.com/linux-vmware-install" target="_blank">【ゼロからわかる】VMwareのインストール方法と使い方</a>
+      を参考にするといいかもしれない<br>
+      VMwareを起動して"仮想マシンを開く"を選択する<br>
+      <p><img src="https://github.com/matsunono/matsunono.github.io/blob/master/img/kalilinux_memo1/choice_vm.png?raw=true" 
+          height="461" width="600" alt="choice_vm_image"></p>
+      すると、OSイメージはどれ？と聞かれるので、さっき解凍したOSイメージを選択する
+      <p><img src="https://github.com/matsunono/matsunono.github.io/blob/master/img/kalilinux_memo1/choice_OSimage.png?raw=true" 
+          height="376" width="600" alt="choice_OS_image"></p>
+      "仮想マシンの再生"を選択すると、KaliLinuxが起動する<br>
+      ここで、"この仮想マシンは移動またはコピーされた可能性があります"と、移動・コピー確認ダイアログが表示されるので、"コピーしました"を選択<br>
+      また、VMware Toolsのインストールについてのダイアログも出るので、VMware Toolsは便利なのでインストールする
+    </p>
+    <p>
+      暫く待っているとログイン画面が出てくるのだが、なんとrootユーザーでログインできない
+      (参考:<a href="https://news.mynavi.jp/article/20200108-951143/" target="_blank">Kali Linux、rootユーザーをデフォルトで廃止</a>)ので、
+      ユーザー名kali、パスワードkaliでログインする<br>
+    </p>
+
+    <footer>
+      <h2>
+        2へ続く…けど、まだ書いてない
+      </h2>
+    </footer>
+  </body>
+</html>

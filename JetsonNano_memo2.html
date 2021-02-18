@@ -1,0 +1,262 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>松ノさんメモ</title>
+  </head>
+  <body>
+      <header>
+          <h1>
+              <a>松ノさんメモ</a>
+          </h1>
+          <nav>
+            <ul>
+              <li>
+                  <a href="index.html">ホーム</a>
+              </li>
+              <li>
+                  <a href="menu.html">メニュー</a>
+              </li>
+              <li>
+                  <a href="profile.html">自己紹介</a>
+              </li>
+          </ul>
+        </nav>
+      </header>
+
+      <h1>Jetson Nanoのセットアップメモ</h1>
+      <h2>2.セットアップ</h2>
+      <p>
+        参考：<a href="https://qiita.com/karaage0703/items/b14c249aa33112669ee4" target="_blank">Jetson Nano関係のTIPSまとめ</a>
+      </p>
+
+      <h2>2-1.TensorFlowのセットアップ</h2>
+      <p>
+        参考：<br>
+        <a href="https://qiita.com/n-yamanaka/items/dd82996312ab333fe9b2" target="_blank">Jetson Nanoインストールメモ</a><br>
+        <a href="https://karaage.hatenadiary.jp/entry/2019/04/29/073000" target="_blank">Jetson Nanoをセットアップしてディープラーニングで画像認識を試してみた</a>
+      </p>
+      <p>
+        (反省点)最初に<a href="https://github.com/JetsonHacksNano/installSwapfile" target="_blank">installSwapfile</a>を使用して
+        SWAP領域を追加しておけばもう少し早く終わった<br>
+        <a href="https://karaage.hatenadiary.jp/entry/2019/04/29/073000" target="_blank">
+          Jetson Nanoをセットアップしてディープラーニングで画像認識を試してみた</a>
+          を見ながら、以下のコマンドを実行<br>
+          <pre><code>
+            $ git clone https://github.com/karaage0703/jetson-nano-tools
+            $ cd jetson-nano-tools
+            $ ./install-tensorflow.sh
+            $ ./install-tools.sh
+          </code></pre>
+        うーん、スクリプトファイル(コマンドを書いてくれているファイル、打ち込む面倒が省ける)
+        を入れて、実行してるってことかね？理解理解
+      </p>
+
+      <h2>2-2.OSのアップデート</h2>
+      <p>
+          以下のコマンドを実行<br>
+          <pre><code>
+            $ sudo apt-get update
+            $ sudo apt-get upgrade
+          </code></pre>>
+          先にOSのアップデートするべきだった
+      </p>
+
+      <h2>2-3.OpenCVのセットアップ</h2>
+      <p>
+        参考：<a href="https://qiita.com/asahi0301/items/3c287190348552f19415">Jetson NanoへOpenCV 4.1.0をインストールする</a>
+      </p>
+      <p>
+        参考ページ内のリンク
+        <a href="https://github.com/AastaNV/JEP/blob/master/script/install_opencv4.0.0_Nano.sh">(こちら)</a>
+        が死んでいたので、参考ページに載っていたスクリプトファイルを、
+        OpenCV 4.3.0をインストールするように変更した<br>
+        <script src="https://gist.github.com/matsunono/d515b94cf5d86042f383e7bdf2ece2be.js"></script>
+        以下のコマンドを実行する(スクリプトの実行)
+        <pre><code>
+          $ mkdir opencv
+          $ ./install_opencv4.3.0_Nano.sh opencv
+        </code></pre>
+      </p>
+
+      <h2>2-4.画像認識のソフトを動かして遊ぶ(遊べない)</h2>
+      <p>
+        <a href="https://karaage.hatenadiary.jp/entry/2019/04/29/073000" target="_blank">
+          Jetson Nanoをセットアップしてディープラーニングで画像認識を試してみた</a>
+          を見ながら、以下のコマンドを実行("Keras"を"Karas"だと勘違いして、最初そんなフォルダ無いよって言われた)
+          <pre><code>
+            $ git clone https://github.com/karaage0703/keras-pi
+            $ cd keras-pi
+          </code></pre>
+          あ、ラズパイのカメラじゃないから、USBカメラですよーって書き直さなきゃかな？と思い、
+          VSCodeで開こうと、(この時すでにTeraTermを使ってリモートで動かしていたのだ！)
+          <pre><code>
+            $ code inspect_camera_pi.py
+          </code></pre>
+          とコマンドを打ったけど、"code"なんてコマンドは無いですわよと言われてしまった<br>
+          よく考えたら当たり前だった、JetsonNanoにVSCode入れてないですもん
+      </p>
+
+      <h2>2-5.リモートでJetsonNanoの中のファイルを触れるようにする</h2>
+      <p>
+        リモートで触るにはSambaを入れるのが良いらしい<br>
+        <p><img src="https://github.com/matsunono/matsunono.github.io/blob/master/img/JetsonNano_memo2/samba.PNG?raw=true" height="365" width="600" alt="さんば…？image"></p>
+      </p>
+      <h3>2-5-1.失敗したメモ (失敗を共有するのも大事だよね)</h3>
+      <p>
+        <a href="https://qiita.com/msrks/items/1385cf13258dd1a0da08" target="_blank">
+          Ubuntuでファイルサーバーをたてる（Samba）</a>
+          を見ながら、以下のコマンドを実行
+          <pre><code>
+            # インストール
+            $ sudo apt-get -y install samba
+
+            # 共有するディレクトリの作成
+            $ sudo mkdir /home/shere
+            $ sudo chmod 777 /home/shere
+
+            # ファイルサーバーの設定
+            $ sudo vim /etc/samba/smb.conf
+          </code></pre>
+          smb.confを下記のように書き換える
+          <pre><code>
+            # 25行目：以下2行追記
+            unix charset = UTF-8
+            dos charset = CP932
+            
+            # 30行目：必要があれば変更 (Windows側に合わせる)
+            workgroup = WORKGROUP
+            
+            # 51行目：コメント解除しアクセス許可IP追記
+            interfaces = 127.0.0.0/8 10.0.0.0/24
+            
+            # 58行目：コメント解除 & 追記
+            bind interfaces only = yes
+            map to guest = Bad User
+            
+            # 最終行に追記
+            [share]# 任意の共有名称を指定
+               path = /home/share# 共有フォルダ指定
+               writable = yes# 書き込みOK
+               guest ok = yes# ゲストユーザーOK
+               guest only = yes# 全てゲストとして扱う
+               create mode = 0777# フルアクセスでファイル作成
+               directory mode = 0777# フルアクセスでフォルダ作成
+          </code></pre>
+      </p>
+      <p>
+        ここでファイルサーバーの再起動の為に、以下のコマンドを実行した
+        <pre><code>
+          $ sudo systemctl restart smbd
+        </code></pre>
+        すると、以下のエラー文が返ってきた
+        <pre><code>
+          Job for smbd.service failed because the control process exited with error code.
+          See "systemctl status smbd.service" and "journalctl -xe" for details.
+        </code></pre>
+        よく見直してみると"share"が"shere"になっていた<br>
+        まあ、エラーと関係ない気もするけど、スペルミスは直しておこうと
+        <pre><code>
+          $ sudo rmdir /home/shere
+          $ sudo mkdir /home/share
+          $ sudo chmod 777 /home/share
+
+          # confファイルの中も間違えているので直す
+          $ sudo vim /etc/samba/smb.conf
+        </code></pre>
+        しかし、同じエラーが出る為、
+        <pre><code>
+          # 最終行に追記
+          [share] # 任意の共有名称を指定
+          path = /home/share # 共有フォルダ指定
+          writable = yes # 書き込みOK
+          guest ok = yes # ゲストユーザーOK
+          guest only = yes # 全てゲストとして扱う
+          create mode = 0777 # フルアクセスでファイル作成
+          directory mode = 0777 # フルアクセスでフォルダ作成
+        </code></pre>
+        上記のように、参考ページの通りにsmb.confを書いていたのを
+        <pre><code>
+          # 最終行に追記
+          [share]
+          path = /home/share
+          writable = yes
+          guest ok = yes
+          guest only = yes
+          create mode = 0777
+          directory mode = 0777
+        </code></pre>
+        上記のように、コメントを削除してみたところ、
+        <pre><code>
+          $ sudo systemctl restart smbd
+        </code></pre>
+        が実行できた！<br>
+        だがしかし、JetsonNanoのshareフォルダにアクセス出来ないし、nmbdが再起動できない…orz<br>
+      </p>
+
+      <h3>2-5-2.成功したメモ</h3>
+      <p>
+        もうだめ…わかんにゃい…<br>
+        と、とりあえずsmb.confの中身を書き換える前に戻して、以下のコマンドを実行して、smbdとnmbdの再起動が出来る事を確認する
+        <pre><code>
+          $ sudo systemctl restart smbd　nmbd
+        </code></pre>
+        参考ページが悪かったのかな…と、
+        <a href="https://wisteriahill.sakura.ne.jp/CMS/WordPress/2019/07/07/nvidia-jetson-nano-set-up-configration/" target="_blank">
+          NVIDIA Jetson Nano を使ってみる（起動と設定編）</a>
+          を見ながら、smb.confの末尾に以下の文を追加
+          <pre><code>
+            [share]
+            path = /home/share
+            read only = no
+            guest ok = yes
+            writable = yes
+            browsable = yes
+            directory mode = 0777
+            create mode = 0777
+          </code></pre>
+          その後、以下のコマンドを実行して、smbdとnmbdの再起動が出来る事を確認する
+          <pre><code>
+            $ sudo systemctl restart smbd　nmbd
+          </code></pre>
+          やったー！<br>
+          その後、エクスプローラーのネットワークに移動して、住所を打ち込むと
+          <p><img src="https://github.com/matsunono/matsunono.github.io/blob/master/img/JetsonNano_memo2/success_ver.PNG?raw=true" height="495" width="600" alt="接続できたよimage"></p>
+          接続出来た…嬉しい…！！
+      </p>
+      <p>
+        2-5-1.で上手くいかなかった理由として、smb.confの中をいじり過ぎたことが考えられる
+        <pre><code>
+          # 25行目：以下2行追記
+          unix charset = UTF-8
+          dos charset = CP932
+          
+          # 30行目：必要があれば変更 (Windows側に合わせる)
+          workgroup = WORKGROUP
+          
+          # 51行目：コメント解除しアクセス許可IP追記
+          interfaces = 127.0.0.0/8 10.0.0.0/24
+          
+          # 58行目：コメント解除 & 追記
+          bind interfaces only = yes
+          map to guest = Bad User
+        </code></pre>
+        上記の部分は変更しなくてOKだった<br>
+        Samba？なにそれ？楽しいの？な無知無知のムチン(れんこん)な私なので、
+        最初に見つけたページに書いてあるをそっくりそのまま試していたが、
+        どうも上手くいかないと思ったら、参考資料を変更するのもアリだなと<br>
+        あとは今回、上手くいかない→最初の状態に書き直す！が出来たので良かったが、
+        ちゃんとバックアップを取るべきだなと痛感した<br>
+        さらに今リモートで触っているけど、CUIなのでちゃんとコマンドを覚えておかないと…
+        うろ覚えで打って、そんなコマンド無いわよ！！ってちょくちょく言われるので…
+        頻繁に使うコマンドをいちいちググるのは、大変だし…<br>
+      </p>
+      <p>
+        多分、これでセットアップが終わったので、やっと次回から遊べるでござるよ、ねぇ松ノ氏！
+      </p>
+      <footer>
+        <h2>
+          <a href="JetsonNano_memo3.html">3に続く</a>
+        </h2>
+      </footer>
+  </body>
+</html>
