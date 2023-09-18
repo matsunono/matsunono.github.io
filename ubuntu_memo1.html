@@ -106,6 +106,166 @@
           で開けば良いのでは？？？<br>
           となったため、解決しました
         </p>
+<<<<<<< HEAD
+
+        <p>
+          (2020/09/23追記)<br>
+          パソコン組んだので、そのパソコンでもlabelImg使えるようにしたくなった<br>
+          Ubuntu入れて、python3のバージョンを調べたら3.8.2だったから、<br>
+          labelImg-masterディレクトリに移動
+          <pre><code>
+            $ sudo pip3 install -r requirements/requirements-linux-python3.txt
+          </code></pre>
+          すると、
+          <pre><code>
+            [sudo] password for matsuno: 
+            Collecting pyqt5==5.10.1
+              Using cached PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-abi3-manylinux1_x86_64.whl (107.8 MB)
+            Collecting lxml==4.2.4
+              Using cached lxml-4.2.4.tar.gz (2.5 MB)
+            Requirement already satisfied: sip<4.20,>=4.19.4 in /usr/lib/python3/dist-packages (from pyqt5==5.10.1->-r requirements/requirements-linux-python3.txt (line 1)) (4.19.21)
+            Building wheels for collected packages: lxml
+              Building wheel for lxml (setup.py) ... error
+              ERROR: Command errored out with exit status 1:
+              command: /usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-pmj2v_vn/lxml/setup.py'"'"'; __file__='"'"'/tmp/pip-install-pmj2v_vn/lxml/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-q9xnw5rp
+                  cwd: /tmp/pip-install-pmj2v_vn/lxml/
+              Complete output (96 lines):
+              Building lxml version 4.2.4.
+              Building without Cython.
+              ERROR: b'/bin/sh: 1: xslt-config: not found\n'
+              ** make sure the development packages of libxml2 and libxslt are installed **
+              
+              Using build configuration of libxslt
+              running bdist_wheel
+              running build
+              running build_py
+              creating build
+              creating build/lib.linux-x86_64-3.8
+              creating build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/usedoctest.py -> build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/_elementpath.py -> build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/cssselect.py -> build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/builder.py -> build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/ElementInclude.py -> build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/sax.py -> build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/pyclasslookup.py -> build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/__init__.py -> build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/doctestcompare.py -> build/lib.linux-x86_64-3.8/lxml
+              creating build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/__init__.py -> build/lib.linux-x86_64-3.8/lxml/includes
+              creating build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/_html5builder.py -> build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/usedoctest.py -> build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/soupparser.py -> build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/formfill.py -> build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/diff.py -> build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/builder.py -> build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/defs.py -> build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/ElementSoup.py -> build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/_diffcommand.py -> build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/_setmixin.py -> build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/html5parser.py -> build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/__init__.py -> build/lib.linux-x86_64-3.8/lxml/html
+              copying src/lxml/html/clean.py -> build/lib.linux-x86_64-3.8/lxml/html
+              creating build/lib.linux-x86_64-3.8/lxml/isoschematron
+              copying src/lxml/isoschematron/__init__.py -> build/lib.linux-x86_64-3.8/lxml/isoschematron
+              copying src/lxml/etree.h -> build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/etree_api.h -> build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/lxml.etree.h -> build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/lxml.etree_api.h -> build/lib.linux-x86_64-3.8/lxml
+              copying src/lxml/includes/etreepublic.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/xpath.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/uri.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/xslt.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/tree.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/htmlparser.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/dtdvalid.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/__init__.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/xmlerror.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/xinclude.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/relaxng.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/xmlschema.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/xmlparser.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/config.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/c14n.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/schematron.pxd -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/lxml-version.h -> build/lib.linux-x86_64-3.8/lxml/includes
+              copying src/lxml/includes/etree_defs.h -> build/lib.linux-x86_64-3.8/lxml/includes
+              creating build/lib.linux-x86_64-3.8/lxml/isoschematron/resources
+              creating build/lib.linux-x86_64-3.8/lxml/isoschematron/resources/rng
+              copying src/lxml/isoschematron/resources/rng/iso-schematron.rng -> build/lib.linux-x86_64-3.8/lxml/isoschematron/resources/rng
+              creating build/lib.linux-x86_64-3.8/lxml/isoschematron/resources/xsl
+              copying src/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl -> build/lib.linux-x86_64-3.8/lxml/isoschematron/resources/xsl
+              copying src/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl -> build/lib.linux-x86_64-3.8/lxml/isoschematron/resources/xsl
+              creating build/lib.linux-x86_64-3.8/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+              copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl -> build/lib.linux-x86_64-3.8/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+              copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl -> build/lib.linux-x86_64-3.8/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+              copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl -> build/lib.linux-x86_64-3.8/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+              copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl -> build/lib.linux-x86_64-3.8/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+              copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl -> build/lib.linux-x86_64-3.8/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+              copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt -> build/lib.linux-x86_64-3.8/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+              running build_ext
+              building 'lxml.etree' extension
+              creating build/temp.linux-x86_64-3.8
+              creating build/temp.linux-x86_64-3.8/src
+              creating build/temp.linux-x86_64-3.8/src/lxml
+              x86_64-linux-gnu-gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/usr/include/python3.8 -c src/lxml/etree.c -o build/temp.linux-x86_64-3.8/src/lxml/etree.o -w
+              In file included from src/lxml/etree.c:662:
+              src/lxml/includes/etree_defs.h:14:10: fatal error: libxml/xmlversion.h: No such file or directory
+                14 | #include "libxml/xmlversion.h"
+                    |          ^~~~~~~~~~~~~~~~~~~~~
+              compilation terminated.
+              Compile failed: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+              creating tmp
+              cc -I/usr/include/libxml2 -c /tmp/xmlXPathInithtb7tx2r.c -o tmp/xmlXPathInithtb7tx2r.o
+              /tmp/xmlXPathInithtb7tx2r.c:1:10: fatal error: libxml/xpath.h: No such file or directory
+                  1 | #include "libxml/xpath.h"
+                    |          ^~~~~~~~~~~~~~~~
+              compilation terminated.
+              *********************************************************************************
+              Could not find function xmlCheckVersion in library libxml2. Is libxml2 installed?
+              *********************************************************************************
+              error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+              ----------------------------------------
+              ERROR: Failed building wheel for lxml
+              Running setup.py clean for lxml
+            Failed to build lxml
+            Installing collected packages: pyqt5, lxml
+              Attempting uninstall: pyqt5
+                Found existing installation: PyQt5 5.14.1
+            ERROR: Could not install packages due to an EnvironmentError: [Errno 2] No such file or directory: '/usr/lib/python3/dist-packages/PyQt5-5.14.1.dist-info/RECORD'
+          </code></pre>
+          とエラーが出てきた<br>
+          その後、
+          <pre><code>
+            $ python3 labelImg.py
+          </code></pre>
+          とコマンド打ったら
+          <pre><code>
+            Traceback (most recent call last):
+              File "labelImg.py", line 41, in <module>
+                from libs.labelFile import LabelFile, LabelFileError, LabelFileFormat
+              File "/home/matsuno/Downloads/labelImg-master/libs/labelFile.py", line 10, in <module>
+                from libs.pascal_voc_io import PascalVocWriter
+              File "/home/matsuno/Downloads/labelImg-master/libs/pascal_voc_io.py", line 6, in <module>
+                from lxml import etree
+            ModuleNotFoundError: No module named 'lxml'
+          </code></pre>
+          とエラーが出てプログラムが開けない<br>
+        </p>
+        <p>
+          lxmlモジュールが見つからないようなので、
+          <pre><code>
+            $ sudo pip3 install lxml
+          </code></pre>
+          と打ち込んだ後、
+          <pre><code>
+            $ python3 labelImg.py
+          </code></pre>
+          と打ち込んだらプログラムが動いたので、良かった
+        </p>
+=======
+>>>>>>> origin/master
         
       </nav>
     </header>
