@@ -31,9 +31,9 @@
           <ul>
             <li>Jetson Nano</li>
             <li>ACアダプタ(5V 4.0A)</li>
-            <li>microSDカード(最低16GB推奨32GBらしいが、私は64GBのやつ)</li>
+            <li>microSDカード(最低16GB推奨32GBらしいが，私は64GBのやつ)</li>
             <li>マウス(端子はUSB)</li>
-            <li>キーボード(忘れてて家の倉庫を漁った、端子はUSBで)</li>
+            <li>キーボード(忘れてて家の倉庫を漁った，端子はUSBで)</li>
             <li>モニター</li>
             <li>HDMIケーブル</li>
             <li>ネットにつなぐ環境(私はPLCアダプタとLANケーブル使った)</li>
@@ -47,21 +47,23 @@
       <h3>1-2-1.OSイメージファイルをダウンロードする</h3>
       <p>
           <a href="https://developer.nvidia.com/embedded/downloads" target="_blank">Jetson Download Center</a>
-          の"Jetson Nano Developer Kit SD Card Image" を選択してダウンロードする
+          の"Jetson Nano Developer Kit SD Card Image" を選択してダウンロードする．<br>
+          (2023/10/30 追記) CUDAのバージョンを上げようとしたら環境を壊したので，JetPack ver4.6.1を入れ直した．
       </p>
       <h3>1-2-2.SDカードのフォーマット</h3>
       <p>
-          <a href="https://www.sdcard.org/downloads/formatter/eula_windows/" target="_blank">SD Memory Card Formatter</a>を使用してフォーマットを行う
+          <a href="https://www.sdcard.org/downloads/formatter/eula_windows/" target="_blank">SD Memory Card Formatter</a>を使用してフォーマットを行う．<br>
+          (2023/10/30 追記) SDカードが「デバイスとドライブ」に表示されないので，ディスクの管理から「新しいシンプルボリューム」を選択，その後SD Card Formatterにてフォーマットした．
       </p>
       <h3>1-2-3.OSイメージファイルを書き込む</h3>
       <p>
-          <a href="https://www.balena.io/etcher/" target="_blank">Etcher</a>を使用して書き込みを行う
+          <a href="https://www.balena.io/etcher/" target="_blank">Etcher</a>を使用して書き込みを行う．
       </p>
       <h3>1-2-4.OSの起動</h3>
       <p>
-          OSのイメージファイルを書き込んだmicroSDカードをJetson Nanoに差し込む(microSDカードを指す場所が分かりずらい、CPUクーラーの下あたり)。
-          ACアダプタの端子を指すと自動で電源が付く<br>
-          最初の起動時に、
+          OSのイメージファイルを書き込んだmicroSDカードをJetson Nanoに差し込む(microSDカードを指す場所が分かりずらい，CPUクーラーの下あたり)．
+          ACアダプタの端子を指すと自動で電源が付く．<br>
+          最初の起動時に，
           <ul>
             <li>使用許諾の承諾</li>
             <li>言語の選択(English)</li>
