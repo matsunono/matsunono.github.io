@@ -43,8 +43,26 @@
           今回はSDカードのフォーマット，OSのインストールに<a href="https://www.raspberrypi.com/software/" target="_blank">Rasberry Pi Imager</a>を用いる．<br>
           まず，SDカードをパソコンに挿入し，Rasberry Pi Imagerを開く．<br>
           Rasberry Piデバイスを"RASBERRY PI ZERO"，OSを"削除"，ストレージを任意のSDカードとし，フォーマットを行う．<br>
-          次に，Rasberry Piデバイスを"RASBERRY PI ZERO"，OSを"Raspberry Pi OS(other)"→"Raspberry Pi OS(Legacy) Full"，ストレージを任意のSDカードとし，OSインストールを行う．<br>
-          公式が推奨しているRaspberry Pi OS(32-bit)をインストールすると，Chromiumが対応してないエラーの発生，FireFoxが開かないことから，古いバージョンを使用する．
+          次に，Rasberry Piデバイスを指定せず，OSを"Raspberry Pi OS (32-bit)"，ストレージを任意のSDカードとし，OSインストールを行う．<br>
+          <!-- 公式が推奨しているRaspberry Pi OS(32-bit)をインストールすると，Chromiumが対応してないエラーの発生，FireFoxが開かないことから，古いバージョンを使用する． -->
+          ここで，Rasberry Piデバイスを指定するとRaspberry Pi OS(32-bit)を指定できない．<br>
+          Rasberry Piデバイスを"RASBERRY PY ZERO"と指定すると"Raspberry Pi OS(Legacy)"が一番上に来るので，こっちが推奨なのかもしれないが，今回はRaspberry Pi OS(32-bit)を入れる．<br>
+          "次へ"を選択し，OSをSDカードへインストールする．
+      </p>
+      <h2>1-3.初期設定</h2>
+      <p>
+          まず，インストールが終わったSDカードをRasberry Pi Zero WH本体に挿入，本体の電源を入れる．<br>
+          初回起動時は色々セットアップするので特に時間がかかる．<br>
+          起動したら，まず日本語表記に変更する．<br>
+          左上のラズベリーボタンを押し，"Rasberry Pi Configrence"→"Localization"→"Location"へ移動，Languageを"jp"と選択すると国と文字セットも日本に合うので，"OK"を押した後再起動を行う．<br>
+          <br>
+          次に，このままではChromiumが使えないので，Chromiumのダウングレードを行う．<br>
+          今回はダウングレードのためにPi-Appsを使用する．<br>
+          Pi-Appsのインストールを行うために，以下のコマンドを実行する．
+          <pre><code>
+            $ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+          </code></pre>
+          ここで，"-qO-"はqゼロではなく，q大文字のオーである．
       </p>
       <footer>
         <h2>
