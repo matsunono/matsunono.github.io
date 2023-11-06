@@ -33,16 +33,18 @@
             <li>ACアダプタ(5V 3.0A)</li>
             <li>microSDカード(16GB)</li>
             <li>マウス(端子はUSB)</li>
-            <li>キーボード(忘れてて家の倉庫を漁った，端子はUSBで)</li>
+            <li>キーボード(端子はUSB)</li>
             <li>モニター</li>
             <li>miniHDMI-HDMIケーブル</li>
-<!--             <li>ネットにつなぐ環境(私はPLCアダプタとLANケーブル使った)</li>
-            <li>USBカメラ</li> -->
           </ul>    
       </p>
       <h2>1-2.SDカードのフォーマットからOSのインストールまで</h2>
       <p>
-          今回はSDカードのフォーマット，OSのインストールに<a href="https://www.raspberrypi.com/software/" target="_blank">Rasberry Pi Imager</a>を用いる．
+          今回はSDカードのフォーマット，OSのインストールに<a href="https://www.raspberrypi.com/software/" target="_blank">Rasberry Pi Imager</a>を用いる．<br>
+          まず，SDカードをパソコンに挿入し，Rasberry Pi Imagerを開く．<br>
+          Rasberry Piデバイスを"RASBERRY PI ZERO"，OSを"削除"，ストレージを任意のSDカードとし，フォーマットを行う．<br>
+          次に，Rasberry Piデバイスを"RASBERRY PI ZERO"，OSを"Raspberry Pi OS(other)"→"Raspberry Pi OS(Legacy) Full"，ストレージを任意のSDカードとし，OSインストールを行う．<br>
+          公式が推奨しているRaspberry Pi OS(32-bit)をインストールすると，Chromiumが対応してないエラーの発生，FireFoxが開かないことから，古いバージョンを使用します．
       </p>
       <footer>
         <h2>
