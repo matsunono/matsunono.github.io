@@ -58,11 +58,17 @@
           <br>
           次に，このままではChromiumが使えないので，Chromiumのダウングレードを行う．<br>
           今回はダウングレードのためにPi-Appsを使用する．<br>
-          Pi-Appsのインストールを行うために，以下のコマンドを実行する．
+          Wi-Fiの設定を行った後，Pi-Appsのインストールを行うために，以下のコマンドを実行する．
           <pre><code>
+            $ sudo apt update
+            $ sudo apt upgrade
             $ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
           </code></pre>
-          ここで，"-qO-"はqゼロではなく，q大文字のオーである．
+          ここで，"-qO-"はqゼロではなく，q大文字のオーである．<br>
+          <br>
+          ところで，Wi-Fiの接続が安定せず，アンテナが1本も立たないため通信速度が非常に遅いのだが，これがハードウェアの問題かソフトウェアの問題か調査する予定である．<br>
+          遅い通信速度のおかげでPi-Appsのインストール時に"http://ftp.udx.icscoe.jp/Linux/raspbian/raspbian/pool/main/s/shellcheck/shellcheck_0.9.0-1_armhf.deb"の取得時にタイムアウトしたので，困っている．<br>
+          
       </p>
       <footer>
         <h2>
