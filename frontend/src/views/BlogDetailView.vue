@@ -12,7 +12,7 @@
       <h1 class="mt-4 text-4xl font-bold tracking-tight lg:text-5xl">{{ blogPost.title }}</h1>
       <p class="mt-4 max-w-3xl leading-8 text-base-content/75">{{ blogPost.summary }}</p>
       <div class="mt-6 flex flex-wrap gap-3">
-        <!-- <RouterLink class="btn btn-primary" to="/blogs">一覧へ戻る</RouterLink> -->
+        <RouterLink class="btn btn-primary" to="/blogs">一覧へ戻る</RouterLink>
         <a
           v-if="blogPost.legacyPath"
           class="btn btn-outline"
