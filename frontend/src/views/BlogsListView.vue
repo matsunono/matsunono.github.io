@@ -2,9 +2,9 @@
   <div class="space-y-8">
     <section class="rounded-[2rem] bg-base-200 px-8 py-12 shadow-xl">
       <p class="text-sm uppercase tracking-[0.3em] text-base-content/60">Blogs</p>
-      <h1 class="mt-3 text-4xl font-bold tracking-tight lg:text-5xl">備忘録とブログ</h1>
+      <h1 class="mt-3 text-4xl font-bold tracking-tight lg:text-5xl">ブログ一覧</h1>
       <p class="mt-4 max-w-3xl leading-8 text-base-content/75">
-        セットアップ記録や実験ログを、あとから検索しやすいように整理していくための一覧です。
+        セットアップ記録や実験ログなど書いた記事の一覧です。
       </p>
     </section>
 

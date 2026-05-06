@@ -4,9 +4,9 @@
       <div class="hero-content flex-col items-start gap-8 px-8 py-12 lg:flex-row lg:items-end lg:justify-between">
         <div class="max-w-2xl space-y-5">
           <p class="text-sm uppercase tracking-[0.35em] text-base-content/60">Home</p>
-          <h1 class="text-4xl font-bold tracking-tight lg:text-6xl">あとで読む自分のための技術メモ</h1>
+          <h1 class="text-4xl font-bold tracking-tight lg:text-6xl">松ノさんの為の備忘録メモ置き場</h1>
           <p class="text-base leading-8 text-base-content/75 lg:text-lg">
-            既存の HTML 群を Vue ベースに移行しながら、Jetson Nano や Linux の作業記録を整理していくための土台です。
+            Jetson Nano や Linux の作業記録、趣味の民俗文化研究を整理していくためのサイトです。
           </p>
           <div class="flex flex-wrap gap-3">
             <RouterLink class="btn btn-primary" to="/blogs">記事一覧を見る</RouterLink>
@@ -16,12 +16,8 @@
 
         <div class="stats stats-vertical w-full max-w-md bg-base-100 shadow lg:stats-horizontal">
           <div class="stat">
-            <div class="stat-title">公開中の土台記事</div>
+            <div class="stat-title">公開中の記事</div>
             <div class="stat-value text-primary">{{ recentBlogs.length }}</div>
-          </div>
-          <div class="stat">
-            <div class="stat-title">移行方式</div>
-            <div class="stat-value text-secondary">SPA</div>
           </div>
         </div>
       </div>

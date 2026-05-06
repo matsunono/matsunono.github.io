@@ -17,7 +17,7 @@
 
       <footer class="footer footer-center rounded-[2rem] border border-base-300 bg-base-200 p-6 text-sm text-base-content/70">
         <aside>
-          <p>Vue + TypeScript + DaisyUI で移行中の個人メモサイトです。</p>
+          <p>松ノさんメモ(2019-2026)</p>
         </aside>
       </footer>
     </div>
