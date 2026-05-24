@@ -601,7 +601,95 @@ VMwareを起動して"仮想マシンを開く"を選択する
 ## 次へ
 
 2へ続く…けど、まだ書いてない
-`,Vc=`---
+`,Vc=`# 高針棒の手の土用干しの見学
+
+先日(7/16)、高針棒の手保存会による道具の土用干しを見学させていただきました。
+
+実は、今年の名東の日・区民まつりで棒の手の実演を見るまで、棒の手は知っているけど見たことがありませんでした。(仮にも名東区の萌えキャラを名乗るものとして恥ずかしい限りです…orz)
+
+なので、棒の手に関する知識もあまりなく、本当に今回の見学で初めて得る知識ばかりで、とても為になりました。
+
+では、最初に棒の手について簡単な説明を…
+
+棒の手とは尾張や西三河に伝わっている民俗芸能で、その由来は農民の自衛のためとか、神事芸能のためとか言われています。
+
+その中で高針の棒の手は、今のよもぎ台の方から尾張旭市の印場の方に伝わったモノを高針の人々が持ち帰って来たものだそうです。
+
+また、高針の棒の手は平成８年に名古屋市の無形文化財に登録されました。
+
+ちなみに今回、取材・見学してきたのは主に高針の棒の手の中でも直心我流の新屋敷のです。
+
+次に今回撮らせていただいたモノの説明をしていきます。
+
+１枚目の写真ですが
+
+この大量の鳥の羽は馬標という馬を飾り付けるための羽で、これらをモサモサに束ねて使われていたそうです。(現在は馬がないので、使われておらず分解されています)
+
+そして、この鳥の羽の上に置かれた棒が武器となる棒(主に子供用だそう)、薙刀、槍、柄が長い鎌など(これらは「花棒」と呼ばれる大人用のものだそう)です。(メイに写真を撮る技術が無いため、とても見づらいです。すいません…m (___)m)
+
+花棒は見た目を良くするために、わざと刃をしっかり留めていないので、カチカチ音がします。
+
+その話を聞いたとき、棒の手は戦うためのモノではなく、魅せるためのモノというのがはっきり出ていると感じました。
+
+２枚目の写真ですが
+
+左から馬標巻き、尻駄負、障泥(あおり)、首鎧というモノです。
+
+これらはどれも馬の塔で馬を飾り付けるために使われた馬具ですが、今は先述の通り馬がいないので使われていません。
+
+馬標巻きには賤ヶ岳の戦いのときに秀吉の本陣に突入した佐久間盛政が秀吉の眼光に射すくめられる場面が、障泥には槍で矢を防いで進む加藤義明たちが描かれています。
+
+３枚目の写真ですが
+
+これは秋祭りなどで使われる幕だそうです。
+
+幕には柴田勝家などが描かれているのですが、よく見てみると…
+
+なんと明治４０何とか年(写真を撮り忘れたのでうろ覚え…)に作られたモノだそう！
+
+長い間使われている幕なので、修復された跡がたくさんあるのですが、その中に４枚目の写真のように裏表反対に縫われている部分もあったりします。
+
+その方が都合がよくて裏返しで縫われたのか、はたまたうっかりミスで縫ってしまったのかは分からないそうですが、どちらにしても面白いですね。
+
+ちなみに、縫い方が荒い波縫いなのですが、なぜかというと棒の手の道具は女性が触ってはいけないものとされており、幕の修復も男性がやるからだそうです。よかった…危うく触ってしまうとこでした…あぶないあぶない…。
+
+５枚目は鷹羽検藤流の東古谷の幕ですが、写真に納まりきっていませんが、海女と龍が描かれています。(やはりメイには写真を撮る技術がないです)
+
+このように、島によっても幕の絵が全然違うというのが分かります。
+
+また、島によって技の型も異なるそうです。それについては秋祭りに行ってから、また書こうと思っています。
+
+この日は６つの島が土用干しをしていましたが、人不足で活動していない島もあるそうで、今活動している島でも人が減ってきているそうです。
+
+また、高針以外の名東区の地域でも昔はあったが、もう途絶えてしまったというところもあるそうです。
+
+このように人不足になってしまう理由は
+
+・衣装が金糸による刺繍などで高く、新しく引っ越してきた人が気軽に始められない
+
+・職人が不足しており、草鞋や花棒などの道具が揃えられない
+
+・棒の手をする人が社会人になって外に出て行ってしまう
+
+・棒の手をする子供たちが中学、高校生になって部活で忙しい
+
+・体幹が弱い子供が増えている
+
+などがあるそうです。
+
+しかしこのように先細りするままではいけないと、最近は高針だけでなく豊田市などの他の地域の棒の手保存会と交流をしたりと積極的に行動しているそうです。
+
+メイも、今回の取材・見学で棒の手に対する理解が一層深まり、また、高針の歴史や信仰の話(今回のブログじゃ収まらなかったので、また今度書きますね)を聞き、今まで面白い芸能と感じていた棒の手が、とんでもなく面白い芸能だと感じるようになりました。
+
+また、棒の手が途絶えてしまった地域に住んでいる人間だと今回知ったり、色々近しいと感じるところがありまして…、こんなとんでもなく面白い棒の手を沢山の人に知ってほしいなあと思うようになりました。いぇい。
+
+10月8日の体育の日に高牟神社で秋祭りをやるらしいです。たくさんの島の演武が見れるそうなので、ぜひぜひ見てみて下さいね。(何とかまとまりました…文章を書くのってやはり難しいですね)
+
+参考文献
+
+名東区、「名東区の民俗文化財」、名古屋市、 http://www.city.nagoya.jp/meito/category/155-2-2-0-0-0-0-0-0-0.html 、(参照：2018-08-06)
+
+2018-08-06 最終更新`,Hc=`---
 title: RasberryPi Zero WHのセットアップメモ
 summary: Raspberry Pi Zero WH のOS起動から初期設定、Chromiumのダウングレードまでの記録です。
 publishedAt: 2023-11-13
@@ -704,7 +792,7 @@ pip3 --version
 ## 備考
 
 Zero WH は USB OTG ポートが 1 つしかないため、USB ハブを使う場合は電源に注意が必要です。
-`,Hc=`---
+`,Uc=`---
 title: 「ブルゲ的脱衣将棋」から学ぶコンピュータ将棋の進化
 summary: 2001年発売のアダルトゲーム「ブルゲ的脱衣将棋」を起点に、コンピュータ将棋AIの歴史をたどるメモです。
 publishedAt: 2020-04-01
@@ -805,7 +893,7 @@ READMEファイルが無い！
 コマの動き、ルールを教えて、コマの配置を座標で渡して解かせたそうな。コマの数が少ないので全幅探索でも解けそうと思ったが、枝刈り使ってるのかね。min-max定理って1950年代に発表されてるし。
 
 （以下、執筆中）
-`,Uc=`---
+`,Wc=`---
 title: UbuntuにlabelImgを入れるまでメモ
 summary: Ubuntu上でアノテーションツールlabelImgを動かすまでの試行錯誤の記録です。
 publishedAt: 2020-04-01
@@ -969,5 +1057,5 @@ $ python3 labelImg.py
 \`\`\`
 
 と打ち込んだらプログラムが動いたので、良かった
-`,Wc=`modulepreload`,Gc=function(e){return`/`+e},Kc={},qc=function(e,t,n){let r=Promise.resolve();if(t&&t.length>0){let e=document.getElementsByTagName(`link`),i=document.querySelector(`meta[property=csp-nonce]`),a=i?.nonce||i?.getAttribute(`nonce`);function o(e){return Promise.all(e.map(e=>Promise.resolve(e).then(e=>({status:`fulfilled`,value:e}),e=>({status:`rejected`,reason:e}))))}r=o(t.map(t=>{if(t=Gc(t,n),t in Kc)return;Kc[t]=!0;let r=t.endsWith(`.css`),i=r?`[rel="stylesheet"]`:``;if(n)for(let n=e.length-1;n>=0;n--){let i=e[n];if(i.href===t&&(!r||i.rel===`stylesheet`))return}else if(document.querySelector(`link[href="${t}"]${i}`))return;let o=document.createElement(`link`);if(o.rel=r?`stylesheet`:Wc,r||(o.as=`script`),o.crossOrigin=``,o.href=t,a&&o.setAttribute(`nonce`,a),document.head.appendChild(o),r)return new Promise((e,n)=>{o.addEventListener(`load`,e),o.addEventListener(`error`,()=>n(Error(`Unable to preload CSS for ${t}`)))})}))}function i(e){let t=new Event(`vite:preloadError`,{cancelable:!0});if(t.payload=e,window.dispatchEvent(t),!t.defaultPrevented)throw e}return r.then(t=>{for(let e of t||[])e.status===`rejected`&&i(e.reason);return e().catch(i)})};function Jc(e){let t=e.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);if(!t)return{meta:{},body:e};let n=t[1],r=t[2];if(n===void 0||r===void 0)return{meta:{},body:e};let i={};for(let e of n.split(`
-`)){let t=e.indexOf(`:`);if(t<0)continue;let n=e.slice(0,t).trim(),r=e.slice(t+1).trim();if(r.startsWith(`[`))try{i[n]=JSON.parse(r)}catch{i[n]=r}else i[n]=r}return{meta:i,body:r}}async function Yc(e){try{let{marked:t}=await qc(async()=>{let{marked:e}=await import(`./marked.esm-CDepialX.js`);return{marked:e}},[]);return await t(e)}catch{return`<pre class="whitespace-pre-wrap leading-7">${e.replace(/</g,`&lt;`)}</pre>`}}async function Xc(e,t){let{meta:n,body:r}=Jc(t),i=await Yc(r.trim());return{slug:e,...n,html:i}}async function Zc(e){let t=[];for(let[n,r]of Object.entries(e)){let e=await Xc(n.split(`/`).pop().replace(/\.md$/,``),r);t.push(e)}return t.sort((e,t)=>t.publishedAt.localeCompare(e.publishedAt))}var Qc=Object.assign({"/src/content/posts/jetson-nano-playground.md":Rc,"/src/content/posts/jetson-nano-setup.md":zc,"/src/content/posts/kali-linux-on-vmware-player.md":Bc,"/src/content/posts/raspberry-pi-zero-wh-setup.md":Vc,"/src/content/posts/shogi-soft-ai-history.md":Hc,"/src/content/posts/ubuntu-labelimg-setup.md":Uc}),$c=null;async function el(){return $c||($c=await Zc(Qc),$c)}async function tl(e=3){return(await el()).slice(0,e)}async function nl(e){return(await el()).find(t=>t.slug===e)}var rl={class:`space-y-8`},il={class:`hero overflow-hidden rounded-[2rem] bg-base-200 shadow-xl`},al={class:`hero-content flex-col items-start gap-8 px-8 py-12 lg:flex-row lg:items-end lg:justify-between`},ol={class:`max-w-2xl space-y-5`},sl={class:`flex flex-wrap gap-3`},cl={class:`stats stats-vertical w-full max-w-md bg-base-100 shadow lg:stats-horizontal`},ll={class:`stat`},ul={class:`stat-value text-primary`},dl={class:`space-y-4`},fl={class:`flex items-center justify-between`},pl={class:`grid gap-4 lg:grid-cols-3`},ml={class:`card-body gap-3`},hl={class:`flex flex-wrap gap-2 text-sm text-base-content/60`},gl={class:`card-title text-xl`},_l={class:`leading-7 text-base-content/75`},vl={class:`card-actions justify-end`},yl=Bn({__name:`HomeView`,setup(e){let t=Wt([]);tr(async()=>{t.value=await tl(3)});let n=e=>new Intl.DateTimeFormat(`ja-JP`,{year:`numeric`,month:`2-digit`,day:`2-digit`}).format(new Date(e));return(e,r)=>{let i=dr(`RouterLink`);return W(),G(`div`,rl,[K(`section`,il,[K(`div`,al,[K(`div`,ol,[r[2]||=K(`p`,{class:`text-sm uppercase tracking-[0.35em] text-base-content/60`},`Home`,-1),r[3]||=K(`h1`,{class:`text-4xl font-bold tracking-tight lg:text-6xl`},`松ノさんの為の備忘録メモ置き場`,-1),r[4]||=K(`p`,{class:`text-base leading-8 text-base-content/75 lg:text-lg`},` Jetson Nano や Linux の作業記録、趣味の民俗文化研究を整理していくためのサイトです。 `,-1),K(`div`,sl,[q(i,{class:`btn btn-primary`,to:`/blogs`},{default:z(()=>[...r[0]||=[J(`記事一覧を見る`,-1)]]),_:1}),q(i,{class:`btn btn-outline`,to:`/profile`},{default:z(()=>[...r[1]||=[J(`プロフィール`,-1)]]),_:1})])]),K(`div`,cl,[K(`div`,ll,[r[5]||=K(`div`,{class:`stat-title`},`公開中の記事`,-1),K(`div`,ul,A(t.value.length),1)])])])]),K(`section`,dl,[K(`div`,fl,[r[7]||=K(`h2`,{class:`text-2xl font-semibold`},`最近のメモ`,-1),q(i,{class:`link link-hover`,to:`/blogs`},{default:z(()=>[...r[6]||=[J(`すべて見る`,-1)]]),_:1})]),K(`div`,pl,[(W(!0),G(H,null,hr(t.value,e=>(W(),G(`article`,{key:e.slug,class:`card bg-base-100 shadow-sm ring-1 ring-base-300`},[K(`div`,ml,[K(`div`,hl,[K(`span`,null,A(n(e.publishedAt)),1),(W(!0),G(H,null,hr(e.tags,e=>(W(),G(`div`,{class:`badge badge-outline`,key:e},A(e),1))),128))]),K(`h3`,gl,A(e.title),1),K(`p`,_l,A(e.summary),1),K(`div`,vl,[q(i,{class:`btn btn-sm btn-ghost`,to:{name:`blog-detail`,params:{slug:e.slug}}},{default:z(()=>[...r[8]||=[J(` 詳細へ `,-1)]]),_:1},8,[`to`])])])]))),128))])])])}}}),bl={key:0,class:`flex justify-center py-20`},xl={key:1,class:`space-y-8`},Sl={class:`rounded-[2rem] bg-base-200 px-8 py-12 shadow-xl`},Cl={class:`flex flex-wrap items-center gap-2 text-sm text-base-content/60`},wl={class:`mt-4 text-4xl font-bold tracking-tight lg:text-5xl`},Tl={class:`mt-4 max-w-3xl leading-8 text-base-content/75`},El={class:`mt-6 flex flex-wrap gap-3`},Dl=[`href`],Ol={class:`card bg-base-100 shadow-sm ring-1 ring-base-300`},kl=[`innerHTML`],Al={key:2,class:`hero rounded-[2rem] bg-base-200 py-16 shadow-xl`},jl={class:`hero-content text-center`},Ml={class:`max-w-md space-y-4`},Nl=Bn({__name:`BlogDetailView`,props:{slug:{}},setup(e){let t=e,n=Wt(void 0),r=Wt(!0);async function i(e){r.value=!0,n.value=await nl(e),r.value=!1}tr(()=>i(t.slug)),Mn(()=>t.slug,e=>i(e));let a=e=>new Intl.DateTimeFormat(`ja-JP`,{year:`numeric`,month:`2-digit`,day:`2-digit`}).format(new Date(e));return(e,t)=>{let i=dr(`RouterLink`);return r.value?(W(),G(`div`,bl,[...t[0]||=[K(`span`,{class:`loading loading-spinner loading-lg text-primary`},null,-1)]])):n.value?(W(),G(`article`,xl,[K(`header`,Sl,[K(`div`,Cl,[K(`span`,null,A(a(n.value.publishedAt)),1),(W(!0),G(H,null,hr(n.value.tags,e=>(W(),G(`div`,{class:`badge badge-outline`,key:e},A(e),1))),128))]),K(`h1`,wl,A(n.value.title),1),K(`p`,Tl,A(n.value.summary),1),K(`div`,El,[q(i,{class:`btn btn-primary`,to:`/blogs`},{default:z(()=>[...t[1]||=[J(`一覧へ戻る`,-1)]]),_:1}),n.value.legacyPath?(W(),G(`a`,{key:0,class:`btn btn-outline`,href:n.value.legacyPath,target:`_blank`,rel:`noreferrer`},` 旧HTMLを見る `,8,Dl)):Ui(``,!0)])]),K(`section`,Ol,[K(`div`,{class:`card-body prose prose-slate max-w-none`,innerHTML:n.value.html},null,8,kl)])])):(W(),G(`section`,Al,[K(`div`,jl,[K(`div`,Ml,[t[3]||=K(`h1`,{class:`text-3xl font-bold`},`記事が見つかりません`,-1),t[4]||=K(`p`,{class:`leading-7 text-base-content/75`},` 指定された slug に対応する記事がまだありません。まずは一覧から記事を選んでください。 `,-1),q(i,{class:`btn btn-primary`,to:`/blogs`},{default:z(()=>[...t[2]||=[J(`記事一覧へ`,-1)]]),_:1})])])]))}}}),Pl={class:`space-y-8`},Fl={class:`grid gap-5 lg:grid-cols-2`},Il={class:`card-body gap-4`},Ll={class:`flex flex-wrap items-center gap-2 text-sm text-base-content/60`},Rl={class:`card-title text-2xl`},zl={class:`leading-7 text-base-content/75`},Bl={class:`card-actions justify-end`},Vl=Bn({__name:`BlogsListView`,setup(e){let t=Wt([]);tr(async()=>{t.value=await el()});let n=e=>new Intl.DateTimeFormat(`ja-JP`,{year:`numeric`,month:`2-digit`,day:`2-digit`}).format(new Date(e));return(e,r)=>{let i=dr(`RouterLink`);return W(),G(`div`,Pl,[r[1]||=K(`section`,{class:`rounded-[2rem] bg-base-200 px-8 py-12 shadow-xl`},[K(`p`,{class:`text-sm uppercase tracking-[0.3em] text-base-content/60`},`Blogs`),K(`h1`,{class:`mt-3 text-4xl font-bold tracking-tight lg:text-5xl`},`ブログ一覧`),K(`p`,{class:`mt-4 max-w-3xl leading-8 text-base-content/75`},` セットアップ記録や実験ログなど書いた記事の一覧です。 `)],-1),K(`section`,Fl,[(W(!0),G(H,null,hr(t.value,e=>(W(),G(`article`,{key:e.slug,class:`card border border-base-300 bg-base-100 shadow-sm transition-transform hover:-translate-y-1 hover:shadow-lg`},[K(`div`,Il,[K(`div`,Ll,[K(`span`,null,A(n(e.publishedAt)),1),(W(!0),G(H,null,hr(e.tags,e=>(W(),G(`div`,{class:`badge badge-outline`,key:e},A(e),1))),128))]),K(`h2`,Rl,[q(i,{to:{name:`blog-detail`,params:{slug:e.slug}}},{default:z(()=>[J(A(e.title),1)]),_:2},1032,[`to`])]),K(`p`,zl,A(e.summary),1),K(`div`,Bl,[q(i,{class:`btn btn-primary`,to:{name:`blog-detail`,params:{slug:e.slug}}},{default:z(()=>[...r[0]||=[J(` 続きを読む `,-1)]]),_:1},8,[`to`])])])]))),128))])])}}}),Hl={name:`松ノさんメモ`,role:`情報工学の修士課程卒業後、パソコンカタカタ屋さんをやっています。`,bio:[`個人用の備忘録として、セットアップや実験メモをあとから見返しやすい形で残していく想定です。`,`いまは既存の HTML 群を Vue ベースに移し替えている途中なので、プロフィールとブログを先に整えています。`,`デザインはあとから広げられるため、まずはルーティングとコンテンツ構造を安定させる方針です。`],links:[{label:`Twitter`,href:`https://twitter.com/Matsuno_pic`},{label:`GitHub`,href:`https://github.com/matsunono`}]},Ul={class:`space-y-8`},Wl={class:`hero overflow-hidden rounded-[2rem] bg-base-200 shadow-xl`},Gl={class:`hero-content w-full flex-col items-start gap-8 px-8 py-12 lg:flex-row lg:items-center lg:justify-between`},Kl={class:`max-w-2xl space-y-4`},ql={class:`text-4xl font-bold tracking-tight lg:text-5xl`},Jl={class:`text-lg text-base-content/80`},Yl={class:`card w-full max-w-sm bg-base-100 shadow-md`},Xl={class:`card-body`},Zl={class:`space-y-3`},Ql=[`href`],$l={class:`card bg-base-100 shadow-sm`},eu={class:`card-body gap-4`},tu=Bn({__name:`ProfileView`,setup(e){return(e,t)=>(W(),G(`div`,Ul,[K(`section`,Wl,[K(`div`,Gl,[K(`div`,Kl,[t[0]||=K(`p`,{class:`text-sm uppercase tracking-[0.3em] text-base-content/60`},`Profile`,-1),K(`h1`,ql,A(Jt(Hl).name),1),K(`p`,Jl,A(Jt(Hl).role),1)]),K(`div`,Yl,[K(`div`,Xl,[t[1]||=K(`h2`,{class:`card-title`},`Links`,-1),K(`div`,Zl,[(W(!0),G(H,null,hr(Jt(Hl).links,e=>(W(),G(`a`,{key:e.href,href:e.href,class:`btn btn-outline btn-block`,target:`_blank`,rel:`noreferrer`},A(e.label),9,Ql))),128))])])])])]),K(`section`,$l,[K(`div`,eu,[t[2]||=K(`h2`,{class:`card-title text-2xl`},`About`,-1),(W(!0),G(H,null,hr(Jt(Hl).bio,e=>(W(),G(`p`,{key:e,class:`leading-8 text-base-content/80`},A(e),1))),128))])])]))}}),nu=Lc({history:ic(`/`),routes:[{path:`/`,name:`home`,component:yl},{path:`/blogs`,name:`blogs`,component:Vl},{path:`/blogs/:slug`,name:`blog-detail`,component:Nl,props:!0},{path:`/profile`,name:`profile`,component:tu},{path:`/:pathMatch(.*)*`,redirect:`/`}]}),ru=so(Lo);ru.use(Eo()),ru.use(nu),ru.mount(`#app`);
+`,Gc=`modulepreload`,Kc=function(e){return`/`+e},qc={},Jc=function(e,t,n){let r=Promise.resolve();if(t&&t.length>0){let e=document.getElementsByTagName(`link`),i=document.querySelector(`meta[property=csp-nonce]`),a=i?.nonce||i?.getAttribute(`nonce`);function o(e){return Promise.all(e.map(e=>Promise.resolve(e).then(e=>({status:`fulfilled`,value:e}),e=>({status:`rejected`,reason:e}))))}r=o(t.map(t=>{if(t=Kc(t,n),t in qc)return;qc[t]=!0;let r=t.endsWith(`.css`),i=r?`[rel="stylesheet"]`:``;if(n)for(let n=e.length-1;n>=0;n--){let i=e[n];if(i.href===t&&(!r||i.rel===`stylesheet`))return}else if(document.querySelector(`link[href="${t}"]${i}`))return;let o=document.createElement(`link`);if(o.rel=r?`stylesheet`:Gc,r||(o.as=`script`),o.crossOrigin=``,o.href=t,a&&o.setAttribute(`nonce`,a),document.head.appendChild(o),r)return new Promise((e,n)=>{o.addEventListener(`load`,e),o.addEventListener(`error`,()=>n(Error(`Unable to preload CSS for ${t}`)))})}))}function i(e){let t=new Event(`vite:preloadError`,{cancelable:!0});if(t.payload=e,window.dispatchEvent(t),!t.defaultPrevented)throw e}return r.then(t=>{for(let e of t||[])e.status===`rejected`&&i(e.reason);return e().catch(i)})};function Yc(e){let t=e.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);if(!t)return{meta:{},body:e};let n=t[1],r=t[2];if(n===void 0||r===void 0)return{meta:{},body:e};let i={};for(let e of n.split(`
+`)){let t=e.indexOf(`:`);if(t<0)continue;let n=e.slice(0,t).trim(),r=e.slice(t+1).trim();if(r.startsWith(`[`))try{i[n]=JSON.parse(r)}catch{i[n]=r}else i[n]=r}return{meta:i,body:r}}async function Xc(e){try{let{marked:t}=await Jc(async()=>{let{marked:e}=await import(`./marked.esm-CDepialX.js`);return{marked:e}},[]);return await t(e)}catch{return`<pre class="whitespace-pre-wrap leading-7">${e.replace(/</g,`&lt;`)}</pre>`}}async function Zc(e,t){let{meta:n,body:r}=Yc(t),i=await Xc(r.trim());return{slug:e,...n,html:i}}async function Qc(e){let t=[];for(let[n,r]of Object.entries(e)){let e=await Zc(n.split(`/`).pop().replace(/\.md$/,``),r);t.push(e)}return t.sort((e,t)=>t.publishedAt.localeCompare(e.publishedAt))}var $c=Object.assign({"/src/content/posts/jetson-nano-playground.md":Rc,"/src/content/posts/jetson-nano-setup.md":zc,"/src/content/posts/kali-linux-on-vmware-player.md":Bc,"/src/content/posts/meito-bounote-mushiboshi.md":Vc,"/src/content/posts/raspberry-pi-zero-wh-setup.md":Hc,"/src/content/posts/shogi-soft-ai-history.md":Uc,"/src/content/posts/ubuntu-labelimg-setup.md":Wc}),el=null;async function tl(){return el||(el=await Qc($c),el)}async function nl(e=3){return(await tl()).slice(0,e)}async function rl(e){return(await tl()).find(t=>t.slug===e)}var il={class:`space-y-8`},al={class:`hero overflow-hidden rounded-[2rem] bg-base-200 shadow-xl`},ol={class:`hero-content flex-col items-start gap-8 px-8 py-12 lg:flex-row lg:items-end lg:justify-between`},sl={class:`max-w-2xl space-y-5`},cl={class:`flex flex-wrap gap-3`},ll={class:`stats stats-vertical w-full max-w-md bg-base-100 shadow lg:stats-horizontal`},ul={class:`stat`},dl={class:`stat-value text-primary`},fl={class:`space-y-4`},pl={class:`flex items-center justify-between`},ml={class:`grid gap-4 lg:grid-cols-3`},hl={class:`card-body gap-3`},gl={class:`flex flex-wrap gap-2 text-sm text-base-content/60`},_l={class:`card-title text-xl`},vl={class:`leading-7 text-base-content/75`},yl={class:`card-actions justify-end`},bl=Bn({__name:`HomeView`,setup(e){let t=Wt([]);tr(async()=>{t.value=await nl(3)});let n=e=>new Intl.DateTimeFormat(`ja-JP`,{year:`numeric`,month:`2-digit`,day:`2-digit`}).format(new Date(e));return(e,r)=>{let i=dr(`RouterLink`);return W(),G(`div`,il,[K(`section`,al,[K(`div`,ol,[K(`div`,sl,[r[2]||=K(`p`,{class:`text-sm uppercase tracking-[0.35em] text-base-content/60`},`Home`,-1),r[3]||=K(`h1`,{class:`text-4xl font-bold tracking-tight lg:text-6xl`},`松ノさんの為の備忘録メモ置き場`,-1),r[4]||=K(`p`,{class:`text-base leading-8 text-base-content/75 lg:text-lg`},` Jetson Nano や Linux の作業記録、趣味の民俗文化研究を整理していくためのサイトです。 `,-1),K(`div`,cl,[q(i,{class:`btn btn-primary`,to:`/blogs`},{default:z(()=>[...r[0]||=[J(`記事一覧を見る`,-1)]]),_:1}),q(i,{class:`btn btn-outline`,to:`/profile`},{default:z(()=>[...r[1]||=[J(`プロフィール`,-1)]]),_:1})])]),K(`div`,ll,[K(`div`,ul,[r[5]||=K(`div`,{class:`stat-title`},`公開中の記事`,-1),K(`div`,dl,A(t.value.length),1)])])])]),K(`section`,fl,[K(`div`,pl,[r[7]||=K(`h2`,{class:`text-2xl font-semibold`},`最近のメモ`,-1),q(i,{class:`link link-hover`,to:`/blogs`},{default:z(()=>[...r[6]||=[J(`すべて見る`,-1)]]),_:1})]),K(`div`,ml,[(W(!0),G(H,null,hr(t.value,e=>(W(),G(`article`,{key:e.slug,class:`card bg-base-100 shadow-sm ring-1 ring-base-300`},[K(`div`,hl,[K(`div`,gl,[K(`span`,null,A(n(e.publishedAt)),1),(W(!0),G(H,null,hr(e.tags,e=>(W(),G(`div`,{class:`badge badge-outline`,key:e},A(e),1))),128))]),K(`h3`,_l,A(e.title),1),K(`p`,vl,A(e.summary),1),K(`div`,yl,[q(i,{class:`btn btn-sm btn-ghost`,to:{name:`blog-detail`,params:{slug:e.slug}}},{default:z(()=>[...r[8]||=[J(` 詳細へ `,-1)]]),_:1},8,[`to`])])])]))),128))])])])}}}),xl={key:0,class:`flex justify-center py-20`},Sl={key:1,class:`space-y-8`},Cl={class:`rounded-[2rem] bg-base-200 px-8 py-12 shadow-xl`},wl={class:`flex flex-wrap items-center gap-2 text-sm text-base-content/60`},Tl={class:`mt-4 text-4xl font-bold tracking-tight lg:text-5xl`},El={class:`mt-4 max-w-3xl leading-8 text-base-content/75`},Dl={class:`mt-6 flex flex-wrap gap-3`},Ol=[`href`],kl={class:`card bg-base-100 shadow-sm ring-1 ring-base-300`},Al=[`innerHTML`],jl={key:2,class:`hero rounded-[2rem] bg-base-200 py-16 shadow-xl`},Ml={class:`hero-content text-center`},Nl={class:`max-w-md space-y-4`},Pl=Bn({__name:`BlogDetailView`,props:{slug:{}},setup(e){let t=e,n=Wt(void 0),r=Wt(!0);async function i(e){r.value=!0,n.value=await rl(e),r.value=!1}tr(()=>i(t.slug)),Mn(()=>t.slug,e=>i(e));let a=e=>new Intl.DateTimeFormat(`ja-JP`,{year:`numeric`,month:`2-digit`,day:`2-digit`}).format(new Date(e));return(e,t)=>{let i=dr(`RouterLink`);return r.value?(W(),G(`div`,xl,[...t[0]||=[K(`span`,{class:`loading loading-spinner loading-lg text-primary`},null,-1)]])):n.value?(W(),G(`article`,Sl,[K(`header`,Cl,[K(`div`,wl,[K(`span`,null,A(a(n.value.publishedAt)),1),(W(!0),G(H,null,hr(n.value.tags,e=>(W(),G(`div`,{class:`badge badge-outline`,key:e},A(e),1))),128))]),K(`h1`,Tl,A(n.value.title),1),K(`p`,El,A(n.value.summary),1),K(`div`,Dl,[q(i,{class:`btn btn-primary`,to:`/blogs`},{default:z(()=>[...t[1]||=[J(`一覧へ戻る`,-1)]]),_:1}),n.value.legacyPath?(W(),G(`a`,{key:0,class:`btn btn-outline`,href:n.value.legacyPath,target:`_blank`,rel:`noreferrer`},` 旧HTMLを見る `,8,Ol)):Ui(``,!0)])]),K(`section`,kl,[K(`div`,{class:`card-body prose prose-slate max-w-none`,innerHTML:n.value.html},null,8,Al)])])):(W(),G(`section`,jl,[K(`div`,Ml,[K(`div`,Nl,[t[3]||=K(`h1`,{class:`text-3xl font-bold`},`記事が見つかりません`,-1),t[4]||=K(`p`,{class:`leading-7 text-base-content/75`},` 指定された slug に対応する記事がまだありません。まずは一覧から記事を選んでください。 `,-1),q(i,{class:`btn btn-primary`,to:`/blogs`},{default:z(()=>[...t[2]||=[J(`記事一覧へ`,-1)]]),_:1})])])]))}}}),Fl={class:`space-y-8`},Il={class:`grid gap-5 lg:grid-cols-2`},Ll={class:`card-body gap-4`},Rl={class:`flex flex-wrap items-center gap-2 text-sm text-base-content/60`},zl={class:`card-title text-2xl`},Bl={class:`leading-7 text-base-content/75`},Vl={class:`card-actions justify-end`},Hl=Bn({__name:`BlogsListView`,setup(e){let t=Wt([]);tr(async()=>{t.value=await tl()});let n=e=>new Intl.DateTimeFormat(`ja-JP`,{year:`numeric`,month:`2-digit`,day:`2-digit`}).format(new Date(e));return(e,r)=>{let i=dr(`RouterLink`);return W(),G(`div`,Fl,[r[1]||=K(`section`,{class:`rounded-[2rem] bg-base-200 px-8 py-12 shadow-xl`},[K(`p`,{class:`text-sm uppercase tracking-[0.3em] text-base-content/60`},`Blogs`),K(`h1`,{class:`mt-3 text-4xl font-bold tracking-tight lg:text-5xl`},`ブログ一覧`),K(`p`,{class:`mt-4 max-w-3xl leading-8 text-base-content/75`},` セットアップ記録や実験ログなど書いた記事の一覧です。 `)],-1),K(`section`,Il,[(W(!0),G(H,null,hr(t.value,e=>(W(),G(`article`,{key:e.slug,class:`card border border-base-300 bg-base-100 shadow-sm transition-transform hover:-translate-y-1 hover:shadow-lg`},[K(`div`,Ll,[K(`div`,Rl,[K(`span`,null,A(n(e.publishedAt)),1),(W(!0),G(H,null,hr(e.tags,e=>(W(),G(`div`,{class:`badge badge-outline`,key:e},A(e),1))),128))]),K(`h2`,zl,[q(i,{to:{name:`blog-detail`,params:{slug:e.slug}}},{default:z(()=>[J(A(e.title),1)]),_:2},1032,[`to`])]),K(`p`,Bl,A(e.summary),1),K(`div`,Vl,[q(i,{class:`btn btn-primary`,to:{name:`blog-detail`,params:{slug:e.slug}}},{default:z(()=>[...r[0]||=[J(` 続きを読む `,-1)]]),_:1},8,[`to`])])])]))),128))])])}}}),Ul={name:`松ノさんメモ`,role:`情報工学の修士課程卒業後、パソコンカタカタ屋さんをやっています。`,bio:[`個人用の備忘録として、セットアップや実験メモをあとから見返しやすい形で残してます。`,`工事中、許してください。`],links:[{label:`Twitter`,href:`https://twitter.com/Matsuno_pic`},{label:`GitHub`,href:`https://github.com/matsunono`}]},Wl={class:`space-y-8`},Gl={class:`hero overflow-hidden rounded-[2rem] bg-base-200 shadow-xl`},Kl={class:`hero-content w-full flex-col items-start gap-8 px-8 py-12 lg:flex-row lg:items-center lg:justify-between`},ql={class:`max-w-2xl space-y-4`},Jl={class:`text-4xl font-bold tracking-tight lg:text-5xl`},Yl={class:`text-lg text-base-content/80`},Xl={class:`card w-full max-w-sm bg-base-100 shadow-md`},Zl={class:`card-body`},Ql={class:`space-y-3`},$l=[`href`],eu={class:`card bg-base-100 shadow-sm`},tu={class:`card-body gap-4`},nu=Bn({__name:`ProfileView`,setup(e){return(e,t)=>(W(),G(`div`,Wl,[K(`section`,Gl,[K(`div`,Kl,[K(`div`,ql,[t[0]||=K(`p`,{class:`text-sm uppercase tracking-[0.3em] text-base-content/60`},`Profile`,-1),K(`h1`,Jl,A(Jt(Ul).name),1),K(`p`,Yl,A(Jt(Ul).role),1)]),K(`div`,Xl,[K(`div`,Zl,[t[1]||=K(`h2`,{class:`card-title`},`Links`,-1),K(`div`,Ql,[(W(!0),G(H,null,hr(Jt(Ul).links,e=>(W(),G(`a`,{key:e.href,href:e.href,class:`btn btn-outline btn-block`,target:`_blank`,rel:`noreferrer`},A(e.label),9,$l))),128))])])])])]),K(`section`,eu,[K(`div`,tu,[t[2]||=K(`h2`,{class:`card-title text-2xl`},`About`,-1),(W(!0),G(H,null,hr(Jt(Ul).bio,e=>(W(),G(`p`,{key:e,class:`leading-8 text-base-content/80`},A(e),1))),128))])])]))}}),ru=Lc({history:ic(`/`),routes:[{path:`/`,name:`home`,component:bl},{path:`/blogs`,name:`blogs`,component:Hl},{path:`/blogs/:slug`,name:`blog-detail`,component:Pl,props:!0},{path:`/profile`,name:`profile`,component:nu},{path:`/:pathMatch(.*)*`,redirect:`/`}]}),iu=so(Lo);iu.use(Eo()),iu.use(ru),iu.mount(`#app`);
