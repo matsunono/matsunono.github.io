@@ -17,7 +17,7 @@
         <div class="stats stats-vertical w-full max-w-md bg-base-100 shadow lg:stats-horizontal">
           <div class="stat">
             <div class="stat-title">公開中の記事</div>
-            <div class="stat-value text-primary">{{ recentBlogs.length }}</div>
+            <div class="stat-value text-primary">{{ allBlogs.length }}</div>
           </div>
         </div>
       </div>
@@ -53,12 +53,14 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import type { BlogPost } from '@/types/blog'
-import { getRecentPosts } from '@/content/blogs'
+import { getRecentPosts, getAllPosts } from '@/content/blogs'
 
 const recentBlogs = ref<BlogPost[]>([])
+const allBlogs = ref<BlogPost[]>([])
 
 onMounted(async () => {
   recentBlogs.value = await getRecentPosts(3)
+  allBlogs.value = await getAllPosts()
 })
 
 const formatDate = (value: string) =>
